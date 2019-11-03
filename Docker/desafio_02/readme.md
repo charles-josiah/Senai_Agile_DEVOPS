@@ -1,4 +1,4 @@
-Desafio 02
+Desafio 02<br>
 Descrição do desafio: Um programador criou uma aplicação em python e precisa que a mesma seja posta em produção até final do dia.
 
 Informações pertinentes para fazer o Dockerfile, Instrucoes_do_dev.txt:
@@ -14,10 +14,11 @@ Informações pertinentes para fazer o Dockerfile, Instrucoes_do_dev.txt:
 * Qualquer dúvida, fale com o Pedro, pois estou saindo de férias, pediram pra por em produção hoje mesmo, mesmo com alguns bugs conhecidos.
 * Arquivos para fazer o desafio: https://github.com/dvriesman/agile-devops/tree/master/week1/apps/colored
 
-Para executar:
+Para executar:<br>
 
 docker run -it -p 8087:9090 -e "APP_NAME=<APP>" -e "APP_COLOR=<COLOR>"  charlesjosiah/senai_agile_devops-desafio_02
 Uso: substitua <nome> pelo seu nome e <color> por uma cor.
-Exemplo:
+
+<br>Exemplo:<br>
 
 docker run -it -p 8087:9090 -e "APP_NAME=hello" -e "APP_COLOR=yellow"  charlesjosiah/senai_agile_devops-desafio_02
