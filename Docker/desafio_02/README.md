@@ -15,6 +15,12 @@ Informações pertinentes para fazer o Dockerfile, Instrucoes_do_dev.txt:
 * Qualquer dúvida, fale com o Pedro, pois estou saindo de férias, pediram pra por em produção hoje mesmo, mesmo com alguns bugs conhecidos.
 * Arquivos para fazer o desafio: https://github.com/dvriesman/agile-devops/tree/master/week1/apps/colored
 
+Link para o container:
+https://cloud.docker.com/repository/docker/charlesjosiah/senai_agile_devops-desafio_02
+
+Para "baixar" o container:
+docker push charlesjosiah/senai_agile_devops-desafio_02
+
 Para executar:<br>
 
 docker run -it -p 8087:9090 -e "APP_NAME=<APP>" -e "APP_COLOR=<COLOR>"  charlesjosiah/senai_agile_devops-desafio_02
