@@ -1,4 +1,4 @@
-# Senai_Agile_DEVOPS - Infraestrutura Ágil com práticas DevOps
+# Infraestrutura Ágil com práticas DevOps
 <hr>
 Unidade: Faculdade de Tecnologia SENAI Florianópolis<br>
 Cidade: Florianópolis<br>
