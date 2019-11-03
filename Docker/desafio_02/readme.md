@@ -1,4 +1,5 @@
 Desafio 02<br>
+<hr>
 Descrição do desafio: Um programador criou uma aplicação em python e precisa que a mesma seja posta em produção até final do dia.
 
 Informações pertinentes para fazer o Dockerfile, Instrucoes_do_dev.txt:
