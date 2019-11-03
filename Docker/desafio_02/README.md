@@ -27,9 +27,9 @@ docker pull charlesjosiah/senai_agile_devops-desafio_02
 ## Sintaxe:
 Uso: substitua <APP> pelo nome do app, hello, e <COLOR> por uma cor.
 ````
-docker run -it -p 8087:9090 -e "APP_NAME=<APP>" -e "APP_COLOR=<COLOR>"  charlesjosiah/senai_agile_devops-desafio_02
+docker run -d -p 8087:9090 -e "APP_NAME=<APP>" -e "APP_COLOR=<COLOR>"  charlesjosiah/senai_agile_devops-desafio_02
 ````
 <br>Exemplo:<br>
 ````
-docker run -it -p 8087:9090 -e "APP_NAME=hello" -e "APP_COLOR=yellow"  charlesjosiah/senai_agile_devops-desafio_02
+docker run -d -p 8087:9090 -e "APP_NAME=hello" -e "APP_COLOR=yellow"  charlesjosiah/senai_agile_devops-desafio_02
 ````
