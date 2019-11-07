@@ -1,0 +1,1000 @@
+  385  git pull
+  386  vi README.md 
+  387  git commit
+  388  git commit -a
+  389  git push
+  390  git config --global user.name "charles-alandt"
+  391  git push
+  392  git pull
+  393  ls
+  394  vi README.md 
+  395  git commit -a
+  396  vi README.md 
+  397  cd ..
+  398  ls
+  399  cd 
+  400  cd /Senai_Agile_DEVOPS/
+  401  ls
+  402  cd Docker/
+  403  ls
+  404  cd exemplo_01/
+  405  ls
+  406  vi Dockerfile 
+  407  vi README.md
+  408  cd ..
+  409  ls
+  410  git commit -a
+  411  git add *
+  412  git commit -a
+  413  git push
+  414  git pull
+  415  ls
+  416  cd Docker/
+  417  ls
+  418  cd desafio_02/
+  419  ls
+  420  ls -lh
+  421  vi README.md 
+  422  git commit -a
+  423  git push
+  424  cd 
+  425  cd /Senai_Agile_DEVOPS/
+  426  ls
+  427  touch te
+  428  git pull
+  429  git commit -a
+  430  ls
+  431  git add *
+  432  git commit -a
+  433  git push
+  434  ls
+  435  ls -lh
+  436  git commit -a
+  437    git config --global user.name charles-josiah
+  438   git config --global user.email charles.alandt@gmail.com
+  439   git commit --amend --reset-author
+  440  git push
+  441  rm te 
+  442   git commit --amend --reset-author *
+  443  git push
+  444  git commit
+  445  git commit -a
+  446  git push
+  447  ip netns add green
+  448  ip netns add yellow
+  449  ip netns
+  450  ip link
+  451  ip netns exec green ip link
+  452  ip -n yello
+  453  ip -n yellow
+  454  ip -n yellow link
+  455  ip netns exec green ip link
+  456  ifocnfig
+  457  arp -a
+  458  ip a
+  459  ip netns exec green ip route list
+  460  ip netns exec green ip arp
+  461  ip netns exec green ip 
+  462  arp -a
+  463  ip link add veth-green type veth peer name veth-yellow
+  464  ip netns exec green ip 
+  465  ip netns exec green ip  list
+  466  ip netns exec green ip link
+  467  ifconfig
+  468  ip 
+  469  ip link show
+  470  ip netns exec green ip link show
+  471  ip -n green addr add 192.168.15.1/24
+  472  ip -n green addr add 192.168.15.1/24 dev veth-green
+  473  ip -n green addr add 192.168.15.1/24 dev  veth-green
+  474  ìp link show
+  475   ip -n yellow addr add 192.168.15.2/24 dev veth-yellow
+  476  ip link add veth-green type veth peer name veth-yellow
+  477  ip link list
+  478  ip link set veth-green netns green
+  479  ip link set veth-yellow netns yellow
+  480  ip list show
+  481  ip link show
+  482   ip -n yellow addr add 192.168.15.2/24 dev veth-yellow
+  483   ip -n green  addr add 192.168.15.2/24 dev veth-green
+  484  ip netns exec green ping 192.168.15.2
+  485  ip netns exec green ping 192.168.15.1
+  486  ip netns exec green ping 192.168.15.2
+  487  ip link show
+  488  ip link show -n 
+  489  ip link show -n  green
+  490  ip -n green link show 
+  491  ip -n yellow link show 
+  492  ip -n yellow a 
+  493  ip -n green  a 
+  494  ip -n yellow link show 
+  495  ip -n yellow link set veth-yellow up
+  496  ip -n green  link set veth-green  up
+  497  ip -n yellow link show 
+  498  ip netns exec green ping 192.168.15.2
+  499  ip netns exec green ping 192.168.15.1
+  500  ip link show
+  501  ip -n yellow link set veth-yellow up
+  502  ip -n green link set veth-green  up
+  503  ip -n yellow link show
+  504  ip -n greep  link show
+  505  ip -n green  link show
+  506  ip -n green  a
+  507  ip -n yellow   a
+  508  ip -n yellow arp 
+  509  ip netns exec green ping 192.168.15.1
+  510  ip netns exec green p
+  511  ip -n greep  link show
+  512  ip -n green  link show
+  513  ip -n yellow  link show
+  514  ip -n yellow  a
+  515  ip -n green   a
+  516   ip -n green  addr add 192.168.15.1/24 dev veth-green
+  517  ip netns exec green ping 192.168.15.1
+  518  ip netns exec green ping 192.168.15.2
+  519  ip -n green link set veth-green  up
+  520  ip -n yellow link set veth-yellow up
+  521  ip -n green  link set veth-green  up
+  522  ip -n yellow link
+  523  ip -n green  link
+  524  ip netns exec green ping 192.168.15.2
+  525  ip netns exec green ip a
+  526   ip -n green  addr del 192.168.15.2/24 dev veth-green
+  527  ip netns exec green ip a
+  528  ip netns exec green ping 192.168.15.2
+  529  ip netns exec yellow ping 192.168.15.1
+  530  history 
+  531  ip -n green link del veth-green
+  532  ip link add v-net-0 type bridge
+  533  ip link set dev v-net-0 up
+  534  ip link show
+  535  brctl addbr v-net-0
+  536  yum install brctl
+  537  yum search brctl 
+  538  yum search bridge
+  539  yum install bridge-utils
+  540  brctl addbr v-net-0
+  541  ip link show
+  542  ip link add veth-green type veth peer name veth-green-br
+  543  ip link add veth-yellow  type veth peer name veth-yellow-br
+  544  ip link show
+  545  ip -n green link add veth-green-br
+  546  ip link set veth-green netns green
+  547  ip link set veth-yellow netns yellow
+  548  history 
+  549   ip netns add  red 
+  550   ip netns add  blue
+  551  ip -n red  link add veth-red-br
+  552  history 
+  553  ip link add veth-yellow type veth peer name veth-yellow-br
+  554  ip link add veth-red type veth peer name veth-red-br
+  555  ip link add veth-blue type veth peer name veth-blue-br
+  556  ip link set veth-green-br master v-net-0
+  557  ip link set veth-green-br up
+  558  ip link set veth-yellow-br master v-net-0
+  559  ip link set veth-yellow-br up
+  560  ip link set veth-red-br master v-net-0
+  561  ip link set veth-red-br up
+  562  ip link set veth-blue-br master v-net-0
+  563  ip link set veth-blue-br up
+  564  ip link show
+  565  ip link set veth-blue-br up
+  566  ip -n green addr add 192.168.15.10/24 dev veth-green
+  567  ip -n yellow addr add 192.168.15.11/24 dev veth-yellow
+  568  ip -n green link set veth-green up
+  569  ip -n yellow link set veth-yellow up
+  570  ip -n red add add 192.168.15.12.24 dev veth-red 
+  571  ip -n red add add 192.168.15.12.24/24  dev veth-red 
+  572  ip -n red add add 192.168.15.12/24  dev veth-red 
+  573  ip link show
+  574  history 
+  575  ip -n red link set veth-red up
+  576  ip -n red link set veth-red  ip -n green link show up
+  577   ip -n green link show 
+  578   ip -n yellow link show 
+  579   ip -n red link show 
+  580  ip addr add 192.168.15.5/24 dev v-net-0
+  581  ping 192.168.15.10
+  582  ping 192.168.15.12
+  583  ping 192.168.15.11
+  584  arp -a
+  585  arp -an
+  586  ip -n red ip ping 8.8.8.8
+  587  ip -n green ip arp
+  588  ip netns exec green ping 8.8.8.8
+  589  route -n
+  590  ip netns exec green tracert  8.8.8.8
+  591  ip netns exec green traceroute  8.8.8.8
+  592  ip netns exec yellow traceroute 8.8.8.8
+  593  route -n
+  594  echo 1 > /proc/sys/net/ipv4/ip_forward
+  595  ip netns exec yellow traceroute 8.8.8.8
+  596  ip netns exec yellow ping  8.8.8.8
+  597  ip route list
+  598  ping iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+  599  iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+  600  ip netns exec yellow ping  8.8.8.8
+  601  ip -n red route add gw  192.168.15.15.5   dev veth-red 
+  602  ip -n red route add gateway  192.168.15.15.5   dev veth-red 
+  603  ip -n freen  route add default 192.168.15.15.5   dev veth-green
+  604  ip -n green  route add default 192.168.15.15.5   dev veth-green
+  605  ip -n yellown  route add default 192.168.15.15.5   dev veth-yellow
+  606  ip -n yellow  route add default 192.168.15.15.5   dev veth-yellow
+  607  ip -n yellow  route add default via  192.168.15.15.5   dev veth-yellow
+  608  ip -n yellow  route add default via  192.168.15.5   dev veth-yellow
+  609  ip -n green  route add default via  192.168.15.5   dev veth-green
+  610  ip netns exec yellow ping  8.8.8.8
+  611  ip netns exec yellow traceroute  8.8.8.8
+  612  ip netns exec yellow ping  8.8.8.8
+  613  ip netns exec yellow traceroute  8.8.8.8
+  614  iptables -t nat -A POSTROUTING -o v-net-0  MASQUERADE
+  615  iptables -t nat -A POSTROUTING -o v-net-0  -J MASQUERADE
+  616  iptables -t nat -A POSTROUTING -o v-net-0  -j  MASQUERADE
+  617  ip netns exec yellow traceroute  8.8.8.8
+  618  ip netns exec yellow ping   8.8.8.8
+  619  ip netns exec yellow traceroute  8.8.8.8
+  620  ip netns exec green  ping  8.8.8.8
+  621  ip netns exec green  ping  8.8.4.4
+  622  ip route list
+  623  echo 1 > /proc/sys/net/ipv4/ip_forward
+  624  ip route list
+  625  ip netns exec green  ping  192.168.15.11
+  626  ip netns exec green  ping  192.168.15.19
+  627  ip netns exec green  ping  192.168.15.10
+  628  ip link show
+  629  ip netns exec green  ping  192.168.15.10
+  630  ip netns exec green  ping  192.168.15.5
+  631  ip netns exec yellow  ping  192.168.15.5
+  632  ip netns exec yellow  ping  192.168.15.11
+  633  ip netns exec yellow ip a
+  634  ip netns exec green  ip a
+  635  ip link show
+  636  iptables -t nat -A POSTROUTING -s 192.168.15.0/24 -j  MASQUERADE
+  637  ip netns exec yellow  ping  8.8.8.8
+  638  iptables -L -n 
+  639  iptables -L -n  -t nat
+  640  ip netns exec green  ip a
+  641  ip netns exec yellow  ip a
+  642  ip netns exec yellow  ip route list
+  643  ifconfig
+  644  ip netns exec yellow  ip route list
+  645  ip netns exec green   ip route list
+  646  ip netns exec yellow  ping 192.168.15.10
+  647  ip netns exec yellow  ping 192.168.15.11
+  648  ip netns exec yellow  ping 192.168.15.5
+  649  ip netns exec yellow  ping 192.168.15.11
+  650  ip netns exec yellow  ping 192.168.15.10
+  651  ip netns exec yellow  ping 192.168.15.5
+  652  ip netns exec yellow  ping 8.8.8.8
+  653  iptables -L -t nat 
+  654  ip netns exec yellow  ping 192.168.89.1
+  655  ip netns exec green  ping 192.168.89.1
+  656  ip netns exec green  ping 192.168.89.52
+  657  ip netns exec green  ping 192.168.89.51
+  658  iptables -L -n
+  659  iptables -t nat -A POSTROUTING --dport 80 --to-destination 192.168.15.13 -j DNAT 
+  660  ip netns del yellow
+  661  ip netns dell green
+  662  ip netns del green
+  663  ip netns del blue
+  664  ip netns del red
+  665  ip link del v-net-0
+  666  iptables -F -t nat
+  667  iptables -L -n
+  668  history 
+  669  cd /Senai_Agile_DEVOPS/
+  670  ls
+  671  cd Docker/
+  672  ls
+  673  mkdir exercicio_03
+  674  cd exercicio_03
+  675  ls
+  676  vi readme.MD
+  677  vi rede.sh
+  678  sh -x  rede.sh green 192.168.15.11 192.168.15.5
+  679  vi rede.sh
+  680  sh -x  rede.sh green 192.168.15.11 192.168.15.5
+  681  sh -x  rede.sh yellow 192.168.15.12 192.168.15.5
+  682  ip -n yellow addr add
+  683  ip -n yellow addr 
+  684  ip -n green  addr 
+  685  ip -n green exec ping 192.168.15.5
+  686  ip netns exec green ping 192.168.15.5
+  687  ip netns exec yellow ping 192.168.15.5
+  688  ip netns exec yellow ping 192.168.15.10
+  689  ip netns exec yellow ping 192.168.15.11
+  690  ip link show 
+  691  ip netns del yellow
+  692  ip netns del green
+  693  ip netns del blue
+  694  ip netns del red
+  695  ip link del v-net-0
+  696  ip netns del yellow
+  697  ip netns del green
+  698  ip netns del blue
+  699  ip netns del red
+  700  ip link del v-net-0
+  701  bash -x rede.sh 
+  702  bash -x rede.sh  green 192.168.15.11 192.168.15.5
+  703  ls
+  704  vi rede.sh 
+  705  ip netns del yellow
+  706  ip netns del green
+  707  ip netns del blue
+  708  ip netns del red
+  709  ip link del v-net-0
+  710  ip netns del yellow
+  711  ip netns del green
+  712  ip netns del blue
+  713  ip netns del red
+  714  ip link del v-net-0
+  715  ip netns del yellow
+  716  ip netns del green
+  717  ip netns del blue
+  718  ip netns del red
+  719  ip link del v-net-0
+  720  ip netns del yellow
+  721  ip netns del green
+  722  ip netns del blue
+  723  ip netns del red
+  724  ip link del v-net-0
+  725  ip netns del yellow
+  726  ip netns del green
+  727  ip netns del blue
+  728  ip netns del red
+  729  ip link del v-net-0
+  730  bash -x rede.sh  green 192.168.15.11 192.168.15.5
+  731  cat rede.sh 
+  732  ip netns del yellow
+  733  ip netns del green
+  734  ip netns del blue
+  735  ip netns del red
+  736  ip link del v-net-0
+  737  ip netns del yellow
+  738  ip netns del green
+  739  ip netns del blue
+  740  ip netns del red
+  741  ip link del v-net-0
+  742  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5
+  743  ip route list
+  744  ip a
+  745  ip netns del yellow
+  746  ip netns del green
+  747  ip netns del blue
+  748  ip netns del red
+  749  ip link del v-net-0
+  750  ip netns del yellow
+  751  ip netns del green
+  752  ip netns del blue
+  753  ip netns del red
+  754  ip link del v-net-0
+  755  vi rede.sh 
+  756  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5
+  757  ip list
+  758  ip a
+  759  ip netns del yellow
+  760  ip netns del green
+  761  ip netns del blue
+  762  ip netns del red
+  763  ip link del v-net-0
+  764  ip netns del yellow
+  765  ip netns del green
+  766  ip netns del blue
+  767  ip netns del red
+  768  ip link del v-net-0
+  769  ip netns del yellow
+  770  ip netns del green
+  771  ip netns del blue
+  772  ip netns del red
+  773  ip link del v-net-0
+  774  ip netns del yellow
+  775  ip netns del green
+  776  ip netns del blue
+  777  ip netns del red
+  778  ip link del v-net-0
+  779  ip list hosw
+  780  ip link show
+  781  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5
+  782  ip addr add add  192.168.15.5 dev v-net-0
+  783  ip addr add   192.168.15.5 dev v-net-0
+  784  ip a
+  785  init 6
+  786  ip a
+  787  systemctl  status sshd
+  788  iptables -L -n
+  789  systemctl stop firewalld
+  790  systemctl disable firewalld
+  791  iptables -L -n
+  792  systemctl disable firewalld
+  793  systemctl disable firewall
+  794  systemctl disable firewalld
+  795  systemctl stop firewalld
+  796  systemctl stop firewall
+  797  systemctl stop firewalld
+  798  iptables -L -
+  799  systemctl stop iiptables
+  800  systemctl  stop firewall
+  801  systemctl  stop firewalld
+  802  iptables -L -n
+  803  ls
+  804  ping 8.8.8.8
+  805  cd /Senai_Agile_DEVOPS/
+  806  ls
+  807  git pull
+  808  ls
+  809  docker pull dvriesman/gdloudk8s:latest 
+  810  docker login
+  811  docker pull dvriesman/gdloudk8s:latest 
+  812  docker pull dvriesman/gcloudk8s:latest 
+  813  ifconfig
+  814  ip a
+  815  ifconfig
+  816  cd /Senai_Agile_DEVOPS/
+  817  ls
+  818  cd  Docker/
+  819  ls
+  820  cd exercicio_03/
+  821  ls
+  822  cat rede.sh 
+  823  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5
+  824  ip link show
+  825  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24
+  826  vi rede.sh 
+  827  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  828  history 
+  829  ip netns del green
+  830  ip add 
+  831  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  832   ip addr add addr 192.168.15.5/24 dev v-net-0
+  833   ip addr add  192.168.15.5/24 dev v-net-0
+  834  ip a
+  835  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  836  vi rede.sh 
+  837  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  838  ip netns del green
+  839  ip a
+  840  ip add del v-net-0
+  841  bash -x rede.sh  yellow  192.168.15.12/24  192.168.15.5/24 192.168.15.5
+  842  ip netns exec yellow ping 192.168.15.11
+  843  ip netns exec yellow ping 192.168.15.5
+  844  ip netns exec yellow ping 192.168.15.12
+  845  ip netns exec yellow ping 192.168.15.11
+  846  ip netns exec green  ping 192.168.15.11
+  847  bash -x rede.sh  green  192.168.15.12/24  192.168.15.5/24 192.168.15.5
+  848  init 6
+  849  cd /Senai_Agile_DEVOPS/
+  850  ls
+  851  cd Docker/
+  852  cd exercicio_03/
+  853  ls
+  854  bash -x rede.sh  green  192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  855  bash -x rede.sh  yellow  192.168.15.12/24  192.168.15.5/24 192.168.15.5
+  856  ip netns exec green  ping 192.168.15.11
+  857  ip netns exec green  ping 192.168.15.12
+  858  ip netns exec green  ping 192.168.15.5
+  859  ip netns exec yellow   ping 192.168.15.5
+  860  ls
+  861  cat rede.sh 
+  862  ip netns exec yellow   ping 192.168.15.5
+  863  ip netns exec yellow   ping 192.168.15.11
+  864  ip netns exec green  ping 192.168.15.11
+  865  ip netns exec green  ping 192.168.15.12
+  866  ip netns  exec ngnix   ping 192.168.15.5
+  867  ip -n green a
+  868  ip route 
+  869  ip netns exec green  route
+  870  ip netns exec green  route -n
+  871  ip netns exec green  ip route list
+  872  ip netns exec yellow  ip route list
+  873  ls
+  874  cat rede.sh 
+  875  cd ..
+  876  git commit *
+  877  git add *
+  878  git commit
+  879  git push
+  880  git pull
+  881  docker network ls
+  882  ip link
+  883  ip netns list
+  884  docker run -d ngnix
+  885  docker run -d nginx
+  886  ip link
+  887  docker network ls
+  888  ip a
+  889  ip netns list
+  890  docker ps
+  891  docker instapct -f 7e107fa40401
+  892  docker inspet  -f 7e107fa40401
+  893  docker inspect  -f 7e107fa40401
+  894  docker inspect   7e107fa40401
+  895  docker inspect   7e107fa40401 | grep pid
+  896  docker inspect   7e107fa40401 | grep -i pid
+  897  pid=$(docker inspect -f '{{.State.Pid}}' "7e107fa40401" )
+  898  echo $pid
+  899  ip netns list
+  900  ls /var/run/netns/green 
+  901  ls /var/run/netns/green  -lh
+  902  ln -sf ln -sf /proc/$pid/ns/net "/var/run/netns/nginx"
+  903  ln -sf /proc/$pid/ns/net "/var/run/netns/nginx"
+  904  ip netns list
+  905  ls
+  906  mkdir exercicio_04
+  907  cd exercicio_04
+  908  ls
+  909  docker  docker network create   --driver=bridge   --subnet=172.28.0.0/16   --ip-range=172.28.5.0/24   --gateway=172.28.5.254   net00
+  910   docker network create   --driver=bridge   --subnet=172.28.0.0/16   --ip-range=172.28.5.0/24   --gateway=172.28.5.254   net00
+  911   docker network rm  net00
+  912   docker network create   --driver=bridge   --subnet=10.2.2.0/16   --ip-range=10.2.2.0/24   --gateway=10.2.2.254   net00
+  913  docker network ls
+  914  docker run --network net00  dvriesman/xapi:2.0  -d xapi 
+  915  docker run --network net00  dvriesman/xapi:2.0  -d --name xapi 
+  916  docker run-d  --network net00  dvriesman/xapi:2.0  --name xapi 
+  917  docker run -d  --network net00  dvriesman/xapi:2.0  --name xapi 
+  918  docker ps
+  919  ip -e net00 arp
+  920  ip -e net00 ip arp
+  921  ip -e net00 ip add list
+  922  ip netns show
+  923  docker inspect xapi
+  924  docker run -d  --network net00  dvriesman/xapi:2.0  --name xapi 
+  925  docker ps
+  926  docker stop 7e107fa40401
+  927  docker run -d  --network net00  dvriesman/xapi:2.0  --name xapi 
+  928  docker ps
+  929  docker run -it   --network net00  dvriesman/xapi:2.0  --name xapi 
+  930  docker run -it -p 80:80  dvriesman/xapi:2.0 
+  931  docker run -it -p 80:80  dvriesman/xapi:2.0  --network net00
+  932  docker run --network net00 -it -p 80:80  dvriesman/xapi:2.0  
+  933  docker run  --network net00 -d  -p 80:80  dvriesman/xapi:2.0  
+  934  docker ps
+  935  docker run  --network net00 -d   alpine
+  936  docker ps
+  937  docker run  --network net00 -d   alpine bash
+  938  docker run  --network net00 -d  alpine 
+  939  docker run  --network net00 -it  alpine 
+  940  docker inspect xapi
+  941  ls
+  942  docker ps
+  943  docker inspect afca2744f926
+  944  docker network list
+  945  docker network net00
+  946  docker network inspect  net00
+  947  docker ps 
+  948  docker stop af
+  949  docker rm net00
+  950  docker network rm net00
+  951   docker network create   --driver=bridge   --subnet=10.2.2.0/24   --ip-range=10.2.2.0/24   --gateway=10.2.2.254   net00
+  952  docker run  --network net00 -d  -p 80:80  dvriesman/xapi:2.0  
+  953  docker run  --network net00 -d  -p 80:80  dvriesman/xapi:2.0  --name xapi2
+  954  docker run  --network net00 -d  -p 81:80  dvriesman/xapi:2.0  --name xapi2
+  955  docker run  --network net00 -d  -p 82:80  dvriesman/xapi:2.0  --name xapi2
+  956  docker ps
+  957  docker ps -a
+  958  docker run  --network net00 -d  -p 82:80  dvriesman/xapi:2.0  
+  959  docker ps
+  960  docker run  --network net00 -d  -p 81:80  dvriesman/xapi:2.0  
+  961  docker ps
+  962  docker inspect -f 53a663e9228c
+  963  docker inspect  53a663e9228c
+  964  docker inspect -f IPAddress  53a663e9228c
+  965  docker inspect -f  networks.IPAddress  53a663e9228c
+  966  docker inspect -f  '{{ .networkssettings.IPAddress }}'   53a663e9228c
+  967  docker inspect -f  '{{ .NetworkSettings.IPAddress }}'   53a663e9228c
+  968  docker inspect -f  '{{ .NetworkSettings.IPAddress }}'  
+  969  docker ps
+  970  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53  
+  971  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53a6 
+  972  docker inspect  53a6 
+  973  docker inspect -f  '{{ .NetworkSettings.Networkss.IPAddress }}' 53a6 
+  974  docker inspect -f  '{{ .NetworkSettings.Networks.IPAddress }}' 53a6 
+  975  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53a6 
+  976  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53a663e9228c98e6635b57a51d44a523ac105c85ed2e61778f0334cc912af7b5
+  977  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53a663e
+  978  docker inspect -f  '{{ .NetworkSettings.Networks.net00.IPAddress }}' 53a663e
+  979  docker ps
+  980  docker inspect -f  '{{ .NetworkSettings.Networks.net00.IPAddress }}' 3c
+  981  docker inspect -f  '{{ .NetworkSettings.Networks.net00.IPAddress }}' 3ce
+  982  docker inspect -f  '{{ .NetworkSettings.Networks.net00.IPAddress }}' 8b9
+  983  docker run  --network net00 -it  alpine 
+  984  ls
+  985  ip netsh
+  986  ip 
+  987  ls
+  988  iptables -L -n
+  989  iptables -L -n -t nat
+  990  ppppp
+  991  c
+  992  d 
+  993  cd 
+  994  yum install kubectl
+  995  sudo tee -a /etc/yum.repos.d/google-cloud-sdk.repo << EOM
+  996  yum install google-cloud-sdk
+  997  yum install kubectl
+  998  gcloud container clusters get-credenctials agiledevops --zone us-east1-b --project senai-257922
+  999  gcloud container clusters get-credentials agiledevops --zone us-east1-b --project senai-257922
+ 1000  gcloud auth login
+ 1001  cd /Senai_Agile_DEVOPS/
+ 1002  ls
+ 1003  cd Docker/
+ 1004  docker pull
+ 1005  git pull
+ 1006  ls
+ 1007  gcloud auth login
+ 1008  gcloud container clusters get-credentials agiledevops --zone us-east1-b --project senai-257922
+ 1009  gcloud auth login
+ 1010  gcloud container clusters get-credentials agiledevops --zone us-east1-b --project senai-257922
+ 1011  kubectl get namespaces
+ 1012  kubectl create charles.a
+ 1013  kubectl create charles\.a
+ 1014  kubectl create nameespace charles\.a
+ 1015  kubectl create namespace charles\.a
+ 1016  kubectl create namespace charles
+ 1017  kubectl get namespaces
+ 1018  kubectl delete namespace charles
+ 1019  kubectl create namespace charles
+ 1020  kubectl config set-context $(kubectl config current-context) --namespace=charles.a
+ 1021  kubectl config current-contex
+ 1022  kubectl config current-context
+ 1023  kubectl config current-context 
+ 1024  kubectl config current-context --namespace
+ 1025  kubectl config current-context
+ 1026  kubectl config set-context $(kubectl config current-context) --namespace=charles
+ 1027  kubectl config current-context
+ 1028  kubectl config set-context $(kubectl config current-context) --namespace=charles
+ 1029  kubectl config current-context
+ 1030  kubectl get namespaces
+ 1031  ls -ls
+ 1032  vi /home/charles.a/.ku
+ 1033  vi /root/.kube/config 
+ 1034  kubectl config current-context
+ 1035  kubectl config current-namespace
+ 1036  kubectl config current-namespaces
+ 1037  vi /root/.kube/config 
+ 1038  kubectl config current-context
+ 1039  kubectl config get current-contexts
+ 1040  kubectl config get contexts
+ 1041  kubectl config get context
+ 1042  kubectl config get-context
+ 1043  kubectl config get-contexts
+ 1044  kubectl config view
+ 1045  history 
+ 1046  kubectl get pods
+ 1047  kubectl config get-contexts
+ 1048* kubectl describle 
+ 1049  kubectl describe pod
+ 1050  kubectl describe logs
+ 1051  ls
+ 1052  cd ..
+ 1053  ls
+ 1054  mkdir K8S
+ 1055  cd K8S/
+ 1056  ls
+ 1057  git commit -a
+ 1058  cd ..
+ 1059  git commit -a
+ 1060  git add *
+ 1061  git commit -a
+ 1062  ls
+ 1063  git push
+ 1064  git add *
+ 1065  cd K8S/
+ 1066  ls
+ 1067  mkdir exercicio_1
+ 1068  mv exercicio_1/ exercicio_01
+ 1069  vi /root/.vimrc
+ 1070  cd exercicio_01/
+ 1071  ls
+ 1072  vi deploy_mysql.yaml
+ 1073  vi /root/.vimrc
+ 1074  vi deploy_mysql.yaml
+ 1075  vim /root/.vimrc 
+ 1076  vi /root/.vimrc 
+ 1077* yum install vim 
+ 1078  kubectl apply -f deploy_mysql.yaml 
+ 1079  vim /root/.vimrc +21
+ 1080  vi deploy_mysql.yaml +21
+ 1081  kubectl apply -f deploy_mysql.yaml 
+ 1082  vi deploy_mysql.yaml +21
+ 1083  kubectl apply -f deploy_mysql.yaml 
+ 1084  vi deploy_mysql.yaml +21
+ 1085  kubectl apply -f deploy_mysql.yaml 
+ 1086  vi deploy_mysql.yaml +21
+ 1087  kubectl apply -f deploy_mysql.yaml 
+ 1088  kubectl apply -f deploy_mysql.yaml  + 19
+ 1089  kubectl apply -f deploy_mysql.yaml  +19
+ 1090  vi deploy_mysql.yaml +19
+ 1091  kubectl apply -f deploy_mysql.yaml  +19
+ 1092  kubectl apply -f deploy_mysql.yaml  
+ 1093  mv deploy_mysql.yaml Deployment.yaml
+ 1094  kubectl apply -f Deployment.yaml 
+ 1095  vi deploy_mysql.yaml +19
+ 1096  vi Deployment.yaml 
+ 1097  vi deploy_mysql.yaml +19
+ 1098  kubectl apply -f Deployment.yaml 
+ 1099  vi deploy_mysql.yaml +19
+ 1100  vi Deployment.yaml 
+ 1101  kubectl apply -f Deployment.yaml 
+ 1102  vi Deployment.yaml 
+ 1103  kubectl apply -f Deployment.yaml 
+ 1104  vi Deployment.yaml 
+ 1105  kubectl apply -f Deployment.yaml 
+ 1106  vi Deployment.yaml 
+ 1107  kubectl apply -f Deployment.yaml 
+ 1108  vi Deployment.yaml 
+ 1109  kubectl apply -f Deployment.yaml 
+ 1110  vi Deployment.yaml 
+ 1111  kubectl apply -f Deployment.yaml 
+ 1112  kubectl get pods
+ 1113  kubectl get describe pod
+ 1114  kubectl get pods --all-namespaces
+ 1115  kubectl get pods 
+ 1116  docker ps
+ 1117  doocker stop 53a663e9228c 3ce4c51eb569 8b921d54ad05
+ 1118  doccker stop 53a663e9228c 3ce4c51eb569 8b921d54ad05
+ 1119  docker stop 53
+ 1120  docker stop 3x
+ 1121  docker stop 3c
+ 1122  docker stop 8b
+ 1123  docker ps
+ 1124  docker stop 3c
+ 1125  docker stop 3ce
+ 1126  kubectl get pods 
+ 1127  kubectl get pods --all-namespaces
+ 1128  kubectl get pods -n charles
+ 1129  kubectl get pod mysql-6cfb8c9488-7l7s5  
+ 1130  kubectl get pod mysql-6cfb8c9488-7l7s5   -o yaml -n charles
+ 1131  kubectl get pod mysql-6cfb8c9488-7l7s5   -o yaml 
+ 1132  kubectl get describe mysql-6cfb8c9488-7l7s5 
+ 1133  kubectl get deployment  mysql-6cfb8c9488-7l7s5 
+ 1134  kubectl get deployment  mysql-6cfb8c9488-7l7s5  mysql 
+ 1135  kubectl get deployment  
+ 1136  kubectl get deployment  mysql -o yaml
+ 1137  cd ..
+ 1138  mkdir exercicio_02
+ 1139  cd exercicio_0
+ 1140  cd exercicio_02
+ 1141  ls
+ 1142  kubectl get services
+ 1143  kubectl get services -n charles.a
+ 1144  kubectl get services -n charles
+ 1145  kubectl create deployment workpress --imagem=wordpress4.8-apache --dry-run -o yaml > wordpress.yaml
+ 1146  kubectl create deployment wordpress --imagem=wordpress4.8-apache --dry-run -o yaml > wordpress.yaml
+ 1147  kubectl create deployment wordpress --imagem=wordpress4.8-apache --dry-run -o yaml 
+ 1148  kubectl create deployment wordpress --imagem=wordpress:4.8-apache --dry-run -o yaml 
+ 1149  kubectl create deployment workpress --imagem=wordpress:4.8-apache --dry-run -o yaml 
+ 1150  kubectl create deployment workpress --imagem=wordpress:4.8-apache --dry-run -o yaml > wordpress.yaml
+ 1151  kubectl create deployment workpress --image=wordpress:4.8-apache --dry-run -o yaml > wordpress.yaml
+ 1152  cat wordpress.yaml 
+ 1153  kubectl get pods --show-labels
+ 1154  docker 
+ 1155  ls
+ 1156  vi readme.MD
+ 1157  vi wordpress.yaml 
+ 1158  kubectl get pods --show-labels
+ 1159  kubectl get pods 
+ 1160  kubectl get pods -n charles
+ 1161  ls
+ 1162  vi wordpress.yaml 
+ 1163  kubectl get pods
+ 1164  kubectl show deployment
+ 1165  kubectl get  deployment
+ 1166  kubectl stop  deployment
+ 1167  kubectl delete   deployment mysql 
+ 1168  kubectl get  deployment
+ 1169  ls
+ 1170  vi wordpress.yaml 
+ 1171  kubectl apply -f wordpress.yaml 
+ 1172  vi wordpress.yaml +20
+ 1173  kubectl apply -f wordpress.yaml 
+ 1174  vi wordpress.yaml +20
+ 1175  kubectl apply -f wordpress.yaml 
+ 1176  vi wordpress.yaml +26
+ 1177  kubectl apply -f wordpress.yaml 
+ 1178  vi wordpress.yaml 
+ 1179  kubectl apply -f wordpress.yaml 
+ 1180  vi wordpress.yaml 
+ 1181  kubectl apply -f wordpress.yaml 
+ 1182  kubectl get pods
+ 1183  kubectl l
+ 1184  kubectl logs  wordpress
+ 1185  kubectl logs  wordpress-6bb6b54cb8-dbwzt
+ 1186  kubectl get pods
+ 1187  kubectl delete wordpress-6bb6b54cb8-dbwzt
+ 1188  kubectl del wordpress-6bb6b54cb8-dbwzt
+ 1189  kubectl delete  wordpress-6bb6b54cb8-dbwzt
+ 1190  kubectl get polyce
+ 1191  kubectl get police
+ 1192  kubectl delete deployment wordpress-6bb6b54cb8-dbwzt 
+ 1193  kubect get services
+ 1194  kubectl get services
+ 1195  kubectl describe servie
+ 1196  kubectl describe service
+ 1197  kubectl deployments
+ 1198  kubectl logs  wordpress-6bb6b54cb8-dbwzt
+ 1199  docker get police
+ 1200  kuberct  get police
+ 1201  kubectl get pods
+ 1202  kubectl apply -f ../exercicio_01/Deployment.yaml 
+ 1203  kubectl get pods
+ 1204  kubectl logs  mysql-6cfb8c9488-bxbtd 
+ 1205  kubectl get pods
+ 1206  kubectl logs  mysql-6cfb8c9488-bxbtd 
+ 1207  kubectl get pods
+ 1208  kubectl logs  mysql-6cfb8c9488-bxbtd 
+ 1209  kubectl get pods
+ 1210  kubectl get services
+ 1211  kubectl deployments
+ 1212  kubectl get deployments
+ 1213  kubectl get pods
+ 1214  kubectl logs  wordpress-6bb6b54cb8-dbwzt
+ 1215  kubectl get services
+ 1216  kubectl get namespaces
+ 1217  kubectl get police
+ 1218  kubectl get polices
+ 1219  kubectl describe service
+ 1220  kubectl describe ?
+ 1221  kubectl get pods
+ 1222  kubectl create service clusterip mysql --tcp=3306:3306 --dry-run -o yaml > mysql-service.yaml
+ 1223  cat mysql-service.yaml 
+ 1224  vim  mysql-service.yaml 
+ 1225  kubectl apply -f mysql-service.yaml 
+ 1226  kubectl get pods
+ 1227  kubectl get services
+ 1228  kubectl get pods
+ 1229  kubectl logs  wordpress-6bb6b54cb8-dbwzt
+ 1230  kubectl logs  wordpress-6bb6b54cb8-dbwzt -f
+ 1231  kubectl get services
+ 1232  kubectl get services 
+ 1233  kubectl get services --namespaces=all
+ 1234  kubectl get services --all-namespaces
+ 1235  kubectl get end
+ 1236  kubectl get endpoint --all-namespaces
+ 1237  kubectl ep --all-namespaces
+ 1238  kubectl get ep --all-namespaces
+ 1239  kubectl get deployment 
+ 1240  kubectl edit deployment  wordpress
+ 1241  ls
+ 1242  vi wordpress.yaml 
+ 1243  kubectl edit deployment  wordpress
+ 1244  vi wordpress.yaml 
+ 1245  kubectl delete deployment wordpress-6bb6b54cb8-dbwzt 
+ 1246  kubectl delete deployment wordpress
+ 1247  kubectl apply -f wordpress.yaml 
+ 1248  kubectl edit deployment  wordpress
+ 1249  kubectl get pod
+ 1250  kubectl logs  wordpress-9cddfcfbb-kbw9m  
+ 1251  netstat -tlna
+ 1252  ls
+ 1253  kubectl logs  wordpress-9cddfcfbb-kbw9m  
+ 1254  kubectl edit deployment  wordpress
+ 1255  ls
+ 1256  cat wordpress.yaml 
+ 1257  vi wordpress.yaml 
+ 1258  ls
+ 1259  cat mysql-service.yaml 
+ 1260  kubectl edit deployment  wordpress
+ 1261  kubectl get deployment 
+ 1262  kubectl get ep --all-namespaces
+ 1263  ping 10.60.0.41
+ 1264  ls
+ 1265  cat wordpress.yaml 
+ 1266  cp ../exercicio_01/Deployment.yaml ./mysql.yaml
+ 1267  ls
+ 1268  ls -lh
+ 1269  cat mysql-service.yaml 
+ 1270  cat mysqly
+ 1271  cat mysql.yaml 
+ 1272  cat wordpress.yaml 
+ 1273  ls
+ 1274  kubectl get services --all-namespaces
+ 1275  kubectl get services
+ 1276  ls -lh
+ 1277  git add *
+ 1278  ls
+ 1279  cat wordpress.yaml 
+ 1280  cat mysql-service.yaml 
+ 1281  cat mysql.yaml 
+ 1282  grep mysql-port
+ 1283  grep mysql-port *
+ 1284  cat mysql.yaml 
+ 1285  ls
+ 1286  kubectl get pod
+ 1287  kubectl get ep --all-namespaces
+ 1288  kubectl get services
+ 1289  kubectl get deployments
+ 1290  cat wordpress.yaml 
+ 1291  cat mysql.yaml 
+ 1292  ls
+ 1293  vi Readme.MD
+ 1294  vi readme.MD 
+ 1295  history 
+ 1296  history  | grep yaml
+ 1297  vi readme.MD 
+ 1298  ls
+ 1299  kubectl get svc
+ 1300  kubectl create service clusterip workpress --tcp:80:80 --dry-run -o yaml > http-service.yaml
+ 1301  kubectl create service clusterip wordpress --tcp:80:80 --dry-run -o yaml > http-service.yaml
+ 1302  kubectl create service clusterip wordpress --tcp 80:80 --dry-run -o yaml > http-service.yaml
+ 1303  vi http-service.yaml 
+ 1304  kubectl apply -f http-service.yaml 
+ 1305  kubectl get svc
+ 1306  kubectl get pods
+ 1307  kubectl get deployments
+ 1308  ls
+ 1309  ls -lh
+ 1310  cat http-service.yaml 
+ 1311  vi readme.MD 
+ 1312  kubectl get ep --all-namespaces
+ 1313  cat wordpress.yaml 
+ 1314  cat http-service.yaml 
+ 1315  vi  http-service.yaml 
+ 1316  kubectl edit http-service
+ 1317  kubectl edit deployment  http-service
+ 1318  ls
+ 1319  vi http-service.yaml 
+ 1320  kubectl apply -f http-service.yaml 
+ 1321  kubectl edit deployment  http-service
+ 1322  kubectl get ep --all-namespaces
+ 1323  kubectl get pods
+ 1324  kubectl get services
+ 1325  kubectl get pods
+ 1326  kubectl get pods -o wide
+ 1327  ls
+ 1328  cat http-service.yaml 
+ 1329  kubectl get nodes
+ 1330  ls
+ 1331  cat wordpress.yaml 
+ 1332  cat http-service.yaml 
+ 1333  kubectl get ep --all-namespaces
+ 1334  ls
+ 1335  rm 1
+ 1336  ls
+ 1337  cat wordpress.yaml 
+ 1338  ls
+ 1339  vi http-service.yaml 
+ 1340  kubectl edit service http-service
+ 1341  kubectl apply -f http-service.yaml 
+ 1342  kubectl get pods -o wide
+ 1343  ls
+ 1344  vi wordpress.yaml 
+ 1345  kubectl apply -f wordpress.yaml 
+ 1346  kubectl get pods -o wide
+ 1347  ls
+ 1348  vi http-service.yaml 
+ 1349  kubectl get services
+ 1350  kubectl edit  services wordpress
+ 1351  kubectl apply -f wordpress.yaml 
+ 1352  kubectl apply -f http-service.yaml 
+ 1353  ls
+ 1354  cat mysql-service.yaml 
+ 1355  ls
+ 1356  vi http-service.yaml 
+ 1357  kubectl get ep 
+ 1358  ls
+ 1359  vi http-service.yaml 
+ 1360  kubectl apply -f http-service.yaml 
+ 1361  vi wordpress.yaml 
+ 1362  ls
+ 1363  vi http-service.yaml 
+ 1364  kubectl apply -f http-service.yaml 
+ 1365  vi http-service.yaml 
+ 1366  kubectl apply -f http-service.yaml 
+ 1367  vi http-service.yaml 
+ 1368  kubectl apply -f http-service.yaml 
+ 1369  kubectl create secret generic mysql-pass --from wordpress -o yaml
+ 1370  kubectl get pods
+ 1371  kubectl delete namespace charles
+ 1372  kubectl get namespaces
+ 1373  history 
+ 1374  history  >> readme.MD 
+ 1375  vi readme.MD 
+ 1376  history 
+ 1377  vi readme.MD 
+ 1378  ls
+ 1379  get add *
+ 1380  cd ..
+ 1381  git add *
+ 1382  git commit -a
+ 1383  ls
+ 1384  history >> 20181106-history-total.txt
