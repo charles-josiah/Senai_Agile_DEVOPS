@@ -1,0 +1,1000 @@
+  247  ip netns del green
+  248  ip netns del blue
+  249  ip netns del red
+  250  ip link del v-net-0
+  251  ip netns del yellow
+  252  ip netns del green
+  253  ip netns del blue
+  254  ip netns del red
+  255  ip link del v-net-0
+  256  bash -x rede.sh  green 192.168.15.11 192.168.15.5
+  257  cat rede.sh 
+  258  ip netns del yellow
+  259  ip netns del green
+  260  ip netns del blue
+  261  ip netns del red
+  262  ip link del v-net-0
+  263  ip netns del yellow
+  264  ip netns del green
+  265  ip netns del blue
+  266  ip netns del red
+  267  ip link del v-net-0
+  268  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5
+  269  ip route list
+  270  ip a
+  271  ip netns del yellow
+  272  ip netns del green
+  273  ip netns del blue
+  274  ip netns del red
+  275  ip link del v-net-0
+  276  ip netns del yellow
+  277  ip netns del green
+  278  ip netns del blue
+  279  ip netns del red
+  280  ip link del v-net-0
+  281  vi rede.sh 
+  282  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5
+  283  ip list
+  284  ip a
+  285  ip netns del yellow
+  286  ip netns del green
+  287  ip netns del blue
+  288  ip netns del red
+  289  ip link del v-net-0
+  290  ip netns del yellow
+  291  ip netns del green
+  292  ip netns del blue
+  293  ip netns del red
+  294  ip link del v-net-0
+  295  ip netns del yellow
+  296  ip netns del green
+  297  ip netns del blue
+  298  ip netns del red
+  299  ip link del v-net-0
+  300  ip netns del yellow
+  301  ip netns del green
+  302  ip netns del blue
+  303  ip netns del red
+  304  ip link del v-net-0
+  305  ip list hosw
+  306  ip link show
+  307  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5
+  308  ip addr add add  192.168.15.5 dev v-net-0
+  309  ip addr add   192.168.15.5 dev v-net-0
+  310  ip a
+  311  init 6
+  312  ip a
+  313  systemctl  status sshd
+  314  iptables -L -n
+  315  systemctl stop firewalld
+  316  systemctl disable firewalld
+  317  iptables -L -n
+  318  systemctl disable firewalld
+  319  systemctl disable firewall
+  320  systemctl disable firewalld
+  321  systemctl stop firewalld
+  322  systemctl stop firewall
+  323  systemctl stop firewalld
+  324  iptables -L -
+  325  systemctl stop iiptables
+  326  systemctl  stop firewall
+  327  systemctl  stop firewalld
+  328  iptables -L -n
+  329  ls
+  330  ping 8.8.8.8
+  331  cd /Senai_Agile_DEVOPS/
+  332  ls
+  333  git pull
+  334  ls
+  335  docker pull dvriesman/gdloudk8s:latest 
+  336  docker login
+  337  docker pull dvriesman/gdloudk8s:latest 
+  338  docker pull dvriesman/gcloudk8s:latest 
+  339  ifconfig
+  340  ip a
+  341  ifconfig
+  342  cd /Senai_Agile_DEVOPS/
+  343  ls
+  344  cd  Docker/
+  345  ls
+  346  cd exercicio_03/
+  347  ls
+  348  cat rede.sh 
+  349  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5
+  350  ip link show
+  351  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24
+  352  vi rede.sh 
+  353  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  354  history 
+  355  ip netns del green
+  356  ip add 
+  357  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  358   ip addr add addr 192.168.15.5/24 dev v-net-0
+  359   ip addr add  192.168.15.5/24 dev v-net-0
+  360  ip a
+  361  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  362  vi rede.sh 
+  363  bash -x rede.sh  green 192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  364  ip netns del green
+  365  ip a
+  366  ip add del v-net-0
+  367  bash -x rede.sh  yellow  192.168.15.12/24  192.168.15.5/24 192.168.15.5
+  368  ip netns exec yellow ping 192.168.15.11
+  369  ip netns exec yellow ping 192.168.15.5
+  370  ip netns exec yellow ping 192.168.15.12
+  371  ip netns exec yellow ping 192.168.15.11
+  372  ip netns exec green  ping 192.168.15.11
+  373  bash -x rede.sh  green  192.168.15.12/24  192.168.15.5/24 192.168.15.5
+  374  init 6
+  375  cd /Senai_Agile_DEVOPS/
+  376  ls
+  377  cd Docker/
+  378  cd exercicio_03/
+  379  ls
+  380  bash -x rede.sh  green  192.168.15.11/24  192.168.15.5/24 192.168.15.5
+  381  bash -x rede.sh  yellow  192.168.15.12/24  192.168.15.5/24 192.168.15.5
+  382  ip netns exec green  ping 192.168.15.11
+  383  ip netns exec green  ping 192.168.15.12
+  384  ip netns exec green  ping 192.168.15.5
+  385  ip netns exec yellow   ping 192.168.15.5
+  386  ls
+  387  cat rede.sh 
+  388  ip netns exec yellow   ping 192.168.15.5
+  389  ip netns exec yellow   ping 192.168.15.11
+  390  ip netns exec green  ping 192.168.15.11
+  391  ip netns exec green  ping 192.168.15.12
+  392  ip netns  exec ngnix   ping 192.168.15.5
+  393  ip -n green a
+  394  ip route 
+  395  ip netns exec green  route
+  396  ip netns exec green  route -n
+  397  ip netns exec green  ip route list
+  398  ip netns exec yellow  ip route list
+  399  ls
+  400  cat rede.sh 
+  401  cd ..
+  402  git commit *
+  403  git add *
+  404  git commit
+  405  git push
+  406  git pull
+  407  docker network ls
+  408  ip link
+  409  ip netns list
+  410  docker run -d ngnix
+  411  docker run -d nginx
+  412  ip link
+  413  docker network ls
+  414  ip a
+  415  ip netns list
+  416  docker ps
+  417  docker instapct -f 7e107fa40401
+  418  docker inspet  -f 7e107fa40401
+  419  docker inspect  -f 7e107fa40401
+  420  docker inspect   7e107fa40401
+  421  docker inspect   7e107fa40401 | grep pid
+  422  docker inspect   7e107fa40401 | grep -i pid
+  423  pid=$(docker inspect -f '{{.State.Pid}}' "7e107fa40401" )
+  424  echo $pid
+  425  ip netns list
+  426  ls /var/run/netns/green 
+  427  ls /var/run/netns/green  -lh
+  428  ln -sf ln -sf /proc/$pid/ns/net "/var/run/netns/nginx"
+  429  ln -sf /proc/$pid/ns/net "/var/run/netns/nginx"
+  430  ip netns list
+  431  ls
+  432  mkdir exercicio_04
+  433  cd exercicio_04
+  434  ls
+  435  docker  docker network create   --driver=bridge   --subnet=172.28.0.0/16   --ip-range=172.28.5.0/24   --gateway=172.28.5.254   net00
+  436   docker network create   --driver=bridge   --subnet=172.28.0.0/16   --ip-range=172.28.5.0/24   --gateway=172.28.5.254   net00
+  437   docker network rm  net00
+  438   docker network create   --driver=bridge   --subnet=10.2.2.0/16   --ip-range=10.2.2.0/24   --gateway=10.2.2.254   net00
+  439  docker network ls
+  440  docker run --network net00  dvriesman/xapi:2.0  -d xapi 
+  441  docker run --network net00  dvriesman/xapi:2.0  -d --name xapi 
+  442  docker run-d  --network net00  dvriesman/xapi:2.0  --name xapi 
+  443  docker run -d  --network net00  dvriesman/xapi:2.0  --name xapi 
+  444  docker ps
+  445  ip -e net00 arp
+  446  ip -e net00 ip arp
+  447  ip -e net00 ip add list
+  448  ip netns show
+  449  docker inspect xapi
+  450  docker run -d  --network net00  dvriesman/xapi:2.0  --name xapi 
+  451  docker ps
+  452  docker stop 7e107fa40401
+  453  docker run -d  --network net00  dvriesman/xapi:2.0  --name xapi 
+  454  docker ps
+  455  docker run -it   --network net00  dvriesman/xapi:2.0  --name xapi 
+  456  docker run -it -p 80:80  dvriesman/xapi:2.0 
+  457  docker run -it -p 80:80  dvriesman/xapi:2.0  --network net00
+  458  docker run --network net00 -it -p 80:80  dvriesman/xapi:2.0  
+  459  docker run  --network net00 -d  -p 80:80  dvriesman/xapi:2.0  
+  460  docker ps
+  461  docker run  --network net00 -d   alpine
+  462  docker ps
+  463  docker run  --network net00 -d   alpine bash
+  464  docker run  --network net00 -d  alpine 
+  465  docker run  --network net00 -it  alpine 
+  466  docker inspect xapi
+  467  ls
+  468  docker ps
+  469  docker inspect afca2744f926
+  470  docker network list
+  471  docker network net00
+  472  docker network inspect  net00
+  473  docker ps 
+  474  docker stop af
+  475  docker rm net00
+  476  docker network rm net00
+  477   docker network create   --driver=bridge   --subnet=10.2.2.0/24   --ip-range=10.2.2.0/24   --gateway=10.2.2.254   net00
+  478  docker run  --network net00 -d  -p 80:80  dvriesman/xapi:2.0  
+  479  docker run  --network net00 -d  -p 80:80  dvriesman/xapi:2.0  --name xapi2
+  480  docker run  --network net00 -d  -p 81:80  dvriesman/xapi:2.0  --name xapi2
+  481  docker run  --network net00 -d  -p 82:80  dvriesman/xapi:2.0  --name xapi2
+  482  docker ps
+  483  docker ps -a
+  484  docker run  --network net00 -d  -p 82:80  dvriesman/xapi:2.0  
+  485  docker ps
+  486  docker run  --network net00 -d  -p 81:80  dvriesman/xapi:2.0  
+  487  docker ps
+  488  docker inspect -f 53a663e9228c
+  489  docker inspect  53a663e9228c
+  490  docker inspect -f IPAddress  53a663e9228c
+  491  docker inspect -f  networks.IPAddress  53a663e9228c
+  492  docker inspect -f  '{{ .networkssettings.IPAddress }}'   53a663e9228c
+  493  docker inspect -f  '{{ .NetworkSettings.IPAddress }}'   53a663e9228c
+  494  docker inspect -f  '{{ .NetworkSettings.IPAddress }}'  
+  495  docker ps
+  496  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53  
+  497  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53a6 
+  498  docker inspect  53a6 
+  499  docker inspect -f  '{{ .NetworkSettings.Networkss.IPAddress }}' 53a6 
+  500  docker inspect -f  '{{ .NetworkSettings.Networks.IPAddress }}' 53a6 
+  501  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53a6 
+  502  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53a663e9228c98e6635b57a51d44a523ac105c85ed2e61778f0334cc912af7b5
+  503  docker inspect -f  '{{ .NetworkSettings.IPAddress }}' 53a663e
+  504  docker inspect -f  '{{ .NetworkSettings.Networks.net00.IPAddress }}' 53a663e
+  505  docker ps
+  506  docker inspect -f  '{{ .NetworkSettings.Networks.net00.IPAddress }}' 3c
+  507  docker inspect -f  '{{ .NetworkSettings.Networks.net00.IPAddress }}' 3ce
+  508  docker inspect -f  '{{ .NetworkSettings.Networks.net00.IPAddress }}' 8b9
+  509  docker run  --network net00 -it  alpine 
+  510  ls
+  511  ip netsh
+  512  ip 
+  513  ls
+  514  iptables -L -n
+  515  iptables -L -n -t nat
+  516  ppppp
+  517  c
+  518  d 
+  519  cd 
+  520  yum install kubectl
+  521  sudo tee -a /etc/yum.repos.d/google-cloud-sdk.repo << EOM
+  522  yum install google-cloud-sdk
+  523  yum install kubectl
+  524  gcloud container clusters get-credenctials agiledevops --zone us-east1-b --project senai-257922
+  525  gcloud container clusters get-credentials agiledevops --zone us-east1-b --project senai-257922
+  526  gcloud auth login
+  527  cd /Senai_Agile_DEVOPS/
+  528  ls
+  529  cd Docker/
+  530  docker pull
+  531  git pull
+  532  ls
+  533  gcloud auth login
+  534  gcloud container clusters get-credentials agiledevops --zone us-east1-b --project senai-257922
+  535  gcloud auth login
+  536  gcloud container clusters get-credentials agiledevops --zone us-east1-b --project senai-257922
+  537  kubectl get namespaces
+  538  kubectl create charles.a
+  539  kubectl create charles\.a
+  540  kubectl create nameespace charles\.a
+  541  kubectl create namespace charles\.a
+  542  kubectl create namespace charles
+  543  kubectl get namespaces
+  544  kubectl delete namespace charles
+  545  kubectl create namespace charles
+  546  kubectl config set-context $(kubectl config current-context) --namespace=charles.a
+  547  kubectl config current-contex
+  548  kubectl config current-context
+  549  kubectl config current-context 
+  550  kubectl config current-context --namespace
+  551  kubectl config current-context
+  552  kubectl config set-context $(kubectl config current-context) --namespace=charles
+  553  kubectl config current-context
+  554  kubectl config set-context $(kubectl config current-context) --namespace=charles
+  555  kubectl config current-context
+  556  kubectl get namespaces
+  557  ls -ls
+  558  vi /home/charles.a/.ku
+  559  vi /root/.kube/config 
+  560  kubectl config current-context
+  561  kubectl config current-namespace
+  562  kubectl config current-namespaces
+  563  vi /root/.kube/config 
+  564  kubectl config current-context
+  565  kubectl config get current-contexts
+  566  kubectl config get contexts
+  567  kubectl config get context
+  568  kubectl config get-context
+  569  kubectl config get-contexts
+  570  kubectl config view
+  571  history 
+  572  kubectl get pods
+  573  kubectl config get-contexts
+  574  kubectl describle 
+  575  kubectl describe pod
+  576  kubectl describe logs
+  577  ls
+  578  cd ..
+  579  ls
+  580  mkdir K8S
+  581  cd K8S/
+  582  ls
+  583  git commit -a
+  584  cd ..
+  585  git commit -a
+  586  git add *
+  587  git commit -a
+  588  ls
+  589  git push
+  590  git add *
+  591  cd K8S/
+  592  ls
+  593  mkdir exercicio_1
+  594  mv exercicio_1/ exercicio_01
+  595  vi /root/.vimrc
+  596  cd exercicio_01/
+  597  ls
+  598  vi deploy_mysql.yaml
+  599  vi /root/.vimrc
+  600  vi deploy_mysql.yaml
+  601  vim /root/.vimrc 
+  602  vi /root/.vimrc 
+  603  yum install vim 
+  604  kubectl apply -f deploy_mysql.yaml 
+  605  vim /root/.vimrc +21
+  606  vi deploy_mysql.yaml +21
+  607  kubectl apply -f deploy_mysql.yaml 
+  608  vi deploy_mysql.yaml +21
+  609  kubectl apply -f deploy_mysql.yaml 
+  610  vi deploy_mysql.yaml +21
+  611  kubectl apply -f deploy_mysql.yaml 
+  612  vi deploy_mysql.yaml +21
+  613  kubectl apply -f deploy_mysql.yaml 
+  614  kubectl apply -f deploy_mysql.yaml  + 19
+  615  kubectl apply -f deploy_mysql.yaml  +19
+  616  vi deploy_mysql.yaml +19
+  617  kubectl apply -f deploy_mysql.yaml  +19
+  618  kubectl apply -f deploy_mysql.yaml  
+  619  mv deploy_mysql.yaml Deployment.yaml
+  620  kubectl apply -f Deployment.yaml 
+  621  vi deploy_mysql.yaml +19
+  622  vi Deployment.yaml 
+  623  vi deploy_mysql.yaml +19
+  624  kubectl apply -f Deployment.yaml 
+  625  vi deploy_mysql.yaml +19
+  626  vi Deployment.yaml 
+  627  kubectl apply -f Deployment.yaml 
+  628  vi Deployment.yaml 
+  629  kubectl apply -f Deployment.yaml 
+  630  vi Deployment.yaml 
+  631  kubectl apply -f Deployment.yaml 
+  632  vi Deployment.yaml 
+  633  kubectl apply -f Deployment.yaml 
+  634  vi Deployment.yaml 
+  635  kubectl apply -f Deployment.yaml 
+  636  vi Deployment.yaml 
+  637  kubectl apply -f Deployment.yaml 
+  638  kubectl get pods
+  639  kubectl get describe pod
+  640  kubectl get pods --all-namespaces
+  641  kubectl get pods 
+  642  docker ps
+  643  doocker stop 53a663e9228c 3ce4c51eb569 8b921d54ad05
+  644  doccker stop 53a663e9228c 3ce4c51eb569 8b921d54ad05
+  645  docker stop 53
+  646  docker stop 3x
+  647  docker stop 3c
+  648  docker stop 8b
+  649  docker ps
+  650  docker stop 3c
+  651  docker stop 3ce
+  652  kubectl get pods 
+  653  kubectl get pods --all-namespaces
+  654  kubectl get pods -n charles
+  655  kubectl get pod mysql-6cfb8c9488-7l7s5  
+  656  kubectl get pod mysql-6cfb8c9488-7l7s5   -o yaml -n charles
+  657  kubectl get pod mysql-6cfb8c9488-7l7s5   -o yaml 
+  658  kubectl get describe mysql-6cfb8c9488-7l7s5 
+  659  kubectl get deployment  mysql-6cfb8c9488-7l7s5 
+  660  kubectl get deployment  mysql-6cfb8c9488-7l7s5  mysql 
+  661  kubectl get deployment  
+  662  kubectl get deployment  mysql -o yaml
+  663  cd ..
+  664  mkdir exercicio_02
+  665  cd exercicio_0
+  666  cd exercicio_02
+  667  ls
+  668  kubectl get services
+  669  kubectl get services -n charles.a
+  670  kubectl get services -n charles
+  671  kubectl create deployment workpress --imagem=wordpress4.8-apache --dry-run -o yaml > wordpress.yaml
+  672  kubectl create deployment wordpress --imagem=wordpress4.8-apache --dry-run -o yaml > wordpress.yaml
+  673  kubectl create deployment wordpress --imagem=wordpress4.8-apache --dry-run -o yaml 
+  674  kubectl create deployment wordpress --imagem=wordpress:4.8-apache --dry-run -o yaml 
+  675  kubectl create deployment workpress --imagem=wordpress:4.8-apache --dry-run -o yaml 
+  676  kubectl create deployment workpress --imagem=wordpress:4.8-apache --dry-run -o yaml > wordpress.yaml
+  677  kubectl create deployment workpress --image=wordpress:4.8-apache --dry-run -o yaml > wordpress.yaml
+  678  cat wordpress.yaml 
+  679  kubectl get pods --show-labels
+  680  docker 
+  681  ls
+  682  vi readme.MD
+  683  vi wordpress.yaml 
+  684  kubectl get pods --show-labels
+  685  kubectl get pods 
+  686  kubectl get pods -n charles
+  687  ls
+  688  vi wordpress.yaml 
+  689  kubectl get pods
+  690  kubectl show deployment
+  691  kubectl get  deployment
+  692  kubectl stop  deployment
+  693  kubectl delete   deployment mysql 
+  694  kubectl get  deployment
+  695  ls
+  696  vi wordpress.yaml 
+  697  kubectl apply -f wordpress.yaml 
+  698  vi wordpress.yaml +20
+  699  kubectl apply -f wordpress.yaml 
+  700  vi wordpress.yaml +20
+  701  kubectl apply -f wordpress.yaml 
+  702  vi wordpress.yaml +26
+  703  kubectl apply -f wordpress.yaml 
+  704  vi wordpress.yaml 
+  705  kubectl apply -f wordpress.yaml 
+  706  vi wordpress.yaml 
+  707  kubectl apply -f wordpress.yaml 
+  708  kubectl get pods
+  709  kubectl l
+  710  kubectl logs  wordpress
+  711  kubectl logs  wordpress-6bb6b54cb8-dbwzt
+  712  kubectl get pods
+  713  kubectl delete wordpress-6bb6b54cb8-dbwzt
+  714  kubectl del wordpress-6bb6b54cb8-dbwzt
+  715  kubectl delete  wordpress-6bb6b54cb8-dbwzt
+  716  kubectl get polyce
+  717  kubectl get police
+  718  kubectl delete deployment wordpress-6bb6b54cb8-dbwzt 
+  719  kubect get services
+  720  kubectl get services
+  721  kubectl describe servie
+  722  kubectl describe service
+  723  kubectl deployments
+  724  kubectl logs  wordpress-6bb6b54cb8-dbwzt
+  725  docker get police
+  726  kuberct  get police
+  727  kubectl get pods
+  728  kubectl apply -f ../exercicio_01/Deployment.yaml 
+  729  kubectl get pods
+  730  kubectl logs  mysql-6cfb8c9488-bxbtd 
+  731  kubectl get pods
+  732  kubectl logs  mysql-6cfb8c9488-bxbtd 
+  733  kubectl get pods
+  734  kubectl logs  mysql-6cfb8c9488-bxbtd 
+  735  kubectl get pods
+  736  kubectl get services
+  737  kubectl deployments
+  738  kubectl get deployments
+  739  kubectl get pods
+  740  kubectl logs  wordpress-6bb6b54cb8-dbwzt
+  741  kubectl get services
+  742  kubectl get namespaces
+  743  kubectl get police
+  744  kubectl get polices
+  745  kubectl describe service
+  746  kubectl describe ?
+  747  kubectl get pods
+  748  kubectl create service clusterip mysql --tcp=3306:3306 --dry-run -o yaml > mysql-service.yaml
+  749  cat mysql-service.yaml 
+  750  vim  mysql-service.yaml 
+  751  kubectl apply -f mysql-service.yaml 
+  752  kubectl get pods
+  753  kubectl get services
+  754  kubectl get pods
+  755  kubectl logs  wordpress-6bb6b54cb8-dbwzt
+  756  kubectl logs  wordpress-6bb6b54cb8-dbwzt -f
+  757  kubectl get services
+  758  kubectl get services 
+  759  kubectl get services --namespaces=all
+  760  kubectl get services --all-namespaces
+  761  kubectl get end
+  762  kubectl get endpoint --all-namespaces
+  763  kubectl ep --all-namespaces
+  764  kubectl get ep --all-namespaces
+  765  kubectl get deployment 
+  766  kubectl edit deployment  wordpress
+  767  ls
+  768  vi wordpress.yaml 
+  769  kubectl edit deployment  wordpress
+  770  vi wordpress.yaml 
+  771  kubectl delete deployment wordpress-6bb6b54cb8-dbwzt 
+  772  kubectl delete deployment wordpress
+  773  kubectl apply -f wordpress.yaml 
+  774  kubectl edit deployment  wordpress
+  775  kubectl get pod
+  776  kubectl logs  wordpress-9cddfcfbb-kbw9m  
+  777  netstat -tlna
+  778  ls
+  779  kubectl logs  wordpress-9cddfcfbb-kbw9m  
+  780  kubectl edit deployment  wordpress
+  781  ls
+  782  cat wordpress.yaml 
+  783  vi wordpress.yaml 
+  784  ls
+  785  cat mysql-service.yaml 
+  786  kubectl edit deployment  wordpress
+  787  kubectl get deployment 
+  788  kubectl get ep --all-namespaces
+  789  ping 10.60.0.41
+  790  ls
+  791  cat wordpress.yaml 
+  792  cp ../exercicio_01/Deployment.yaml ./mysql.yaml
+  793  ls
+  794  ls -lh
+  795  cat mysql-service.yaml 
+  796  cat mysqly
+  797  cat mysql.yaml 
+  798  cat wordpress.yaml 
+  799  ls
+  800  kubectl get services --all-namespaces
+  801  kubectl get services
+  802  ls -lh
+  803  git add *
+  804  ls
+  805  cat wordpress.yaml 
+  806  cat mysql-service.yaml 
+  807  cat mysql.yaml 
+  808  grep mysql-port
+  809  grep mysql-port *
+  810  cat mysql.yaml 
+  811  ls
+  812  kubectl get pod
+  813  kubectl get ep --all-namespaces
+  814  kubectl get services
+  815  kubectl get deployments
+  816  cat wordpress.yaml 
+  817  cat mysql.yaml 
+  818  ls
+  819  vi Readme.MD
+  820  vi readme.MD 
+  821  history 
+  822  history  | grep yaml
+  823  vi readme.MD 
+  824  ls
+  825  kubectl get svc
+  826  kubectl create service clusterip workpress --tcp:80:80 --dry-run -o yaml > http-service.yaml
+  827  kubectl create service clusterip wordpress --tcp:80:80 --dry-run -o yaml > http-service.yaml
+  828  kubectl create service clusterip wordpress --tcp 80:80 --dry-run -o yaml > http-service.yaml
+  829  vi http-service.yaml 
+  830  kubectl apply -f http-service.yaml 
+  831  kubectl get svc
+  832  kubectl get pods
+  833  kubectl get deployments
+  834  ls
+  835  ls -lh
+  836  cat http-service.yaml 
+  837  vi readme.MD 
+  838  kubectl get ep --all-namespaces
+  839  cat wordpress.yaml 
+  840  cat http-service.yaml 
+  841  vi  http-service.yaml 
+  842  kubectl edit http-service
+  843  kubectl edit deployment  http-service
+  844  ls
+  845  vi http-service.yaml 
+  846  kubectl apply -f http-service.yaml 
+  847  kubectl edit deployment  http-service
+  848  kubectl get ep --all-namespaces
+  849  kubectl get pods
+  850  kubectl get services
+  851  kubectl get pods
+  852  kubectl get pods -o wide
+  853  ls
+  854  cat http-service.yaml 
+  855  kubectl get nodes
+  856  ls
+  857  cat wordpress.yaml 
+  858  cat http-service.yaml 
+  859  kubectl get ep --all-namespaces
+  860  ls
+  861  rm 1
+  862  ls
+  863  cat wordpress.yaml 
+  864  ls
+  865  vi http-service.yaml 
+  866  kubectl edit service http-service
+  867  kubectl apply -f http-service.yaml 
+  868  kubectl get pods -o wide
+  869  ls
+  870  vi wordpress.yaml 
+  871  kubectl apply -f wordpress.yaml 
+  872  kubectl get pods -o wide
+  873  ls
+  874  vi http-service.yaml 
+  875  kubectl get services
+  876  kubectl edit  services wordpress
+  877  kubectl apply -f wordpress.yaml 
+  878  kubectl apply -f http-service.yaml 
+  879  ls
+  880  cat mysql-service.yaml 
+  881  ls
+  882  vi http-service.yaml 
+  883  kubectl get ep 
+  884  ls
+  885  vi http-service.yaml 
+  886  kubectl apply -f http-service.yaml 
+  887  vi wordpress.yaml 
+  888  ls
+  889  vi http-service.yaml 
+  890  kubectl apply -f http-service.yaml 
+  891  vi http-service.yaml 
+  892  kubectl apply -f http-service.yaml 
+  893  vi http-service.yaml 
+  894  kubectl apply -f http-service.yaml 
+  895  kubectl create secret generic mysql-pass --from wordpress -o yaml
+  896  kubectl get pods
+  897  kubectl delete namespace charles
+  898  kubectl get namespaces
+  899  history 
+  900  history  >> readme.MD 
+  901  vi readme.MD 
+  902  history 
+  903  vi readme.MD 
+  904  ls
+  905  get add *
+  906  cd ..
+  907  git add *
+  908  git commit -a
+  909  ls
+  910  history >> 20181106-history-total.txt
+  911  cat 20181106-history-total.txt 
+  912  ls
+  913  git add *
+  914  git commit -a
+  915  git push
+  916  ip a
+  917  init 6
+  918  ifconfig
+  919  dhclientli -v
+  920  dhclientl -v
+  921  dhclient -v
+  922  [
+  923  ip a
+  924  dhclient 
+  925  dhclient -i eth0 -v
+  926  ifconfig
+  927  ip a
+  928  ifconfig
+  929  dhclient 
+  930  dhclient -v 0
+  931  ifc
+  932  ifconfig
+  933  dhclient -v
+  934  dhclient -v -a
+  935  init 6
+  936  ifconfig
+  937  dhclient -v -i eth0
+  938  ifconfig -a
+  939  dhclient -v -i eth0
+  940  ifconfig 
+  941  init 6
+  942  ifconfig
+  943   dhclient --help
+  944  dhclient -v 
+  945  ip a
+  946  ifconfig
+  947  cd ;etc;
+  948  loadkeys us
+  949  cd /etc/
+  950  cd sysconfig/
+  951  ls
+  952  cd network-scripts/
+  953  ls
+  954  cat ifcfg-eth0
+  955  ifconfig eth0
+  956  ifconfig
+  957   docker network delete   --driver=bridge   --subnet=10.2.2.0/24   --ip-range=10.2.2.0/24   --gateway=10.2.2.254   net00
+  958   docker network prune  --driver=bridge   --subnet=10.2.2.0/24   --ip-range=10.2.2.0/24   --gateway=10.2.2.254   net00a
+  959   docker network prune 
+  960  ifconfig
+  961  ifconfig -a
+  962  dhclient eth0 
+  963  dhclient eth0  -v
+  964  killall -9 dhcpd
+  965  killall -9 dhcpdclient
+  966  ps -aux | grep clien
+  967  kill -9 1804
+  968  iptables -L -n
+  969  ps -aux | grep clien
+  970  dhclient -v
+  971  ini
+  972  int 6
+  973  init 6
+  974  ifconfig
+  975  ifconfig eth0 192.168.89.100 netmask 255.255.255.0
+  976  ping 192.168.89.1
+  977  ipconfig
+  978  ifconfig
+  979  init 6
+  980  ifconfig 
+  981  ifconfig -a
+  982  ifconfig eth0 192.168.89.100 netmask 255.255.255.0
+  983  ping 192.168.89.1
+  984  ifconfig eth0 dhcp
+  985  ifconfig eth0 dhcpd
+  986  dhclient -v eth0
+  987  ifconfig
+  988  dhcli -v
+  989  dhclient -v
+  990  init 6
+  991  ifconfig
+  992  dhclient -v
+  993  ifconfig
+  994  ifup eth0
+  995  dhclient -v
+  996  ifconfig -a
+  997  init 6
+  998  systemctl  enable sshd
+  999  systemctl  start sshd
+ 1000  exit
+ 1001  cd /etc/
+ 1002  vi hostname 
+ 1003  cd /Senai_Agile_DEVOPS/
+ 1004  ls
+ 1005  git pull
+ 1006  vi /etc/resolv.conf
+ 1007  ping uol.com.br
+ 1008  tracepath 8.8.8.8
+ 1009  route -n
+ 1010  tracepath 8.8.8.8
+ 1011  gcloud auth login
+ 1012  gcloud container clusters get-credentials
+ 1013    standard-cluster-1 --zone us-east1-b
+ 1014    --project senai-257922
+ 1015  gcloud container clusters get-credentials   standard-cluster-1 --zone us-east1-b
+ 1016  gcloud container clusters get-credentials   standard-cluster-1 --zone us-east1-b   --project senai-257922
+ 1017  cd
+ 1018  dvriesman 20h13
+ 1019  curl "https://get.helm.sh/helm-v2.16.0-rc.2-linux-amd64.tar.gz"
+ 1020  curl "https://get.helm.sh/helm-v2.16.0-rc.2-linux-amd64.tar.gz" | tar zx
+ 1021  mv linux-amd64/helm /usr/bin/
+ 1022  helm version --client
+ 1023  kubectl get pods
+ 1024  cd /Senai_Agile_DEVOPS/
+ 1025  ls
+ 1026  mkdir helm
+ 1027  git pull
+ 1028  git add *
+ 1029  ls
+ 1030  cd helm/
+ 1031  ls
+ 1032  mkdir exemplo1 
+ 1033  cd exemplo1/
+ 1034  ls
+ 1035  helm create meutemplate firstwebapp
+ 1036  helm create -p meutemplate firstwebapp
+ 1037  ls
+ 1038  helm create firstwebapp
+ 1039  ls
+ 1040  cd firstwebapp/
+ 1041  ls
+ 1042  vi values.yaml 
+ 1043  ls
+ 1044  vi Chart.yaml 
+ 1045  vi values.yaml 
+ 1046  ls
+ 1047  ls templates/
+ 1048  ls templates/ -lh
+ 1049  cd ..
+ 1050  ls
+ 1051  cd firstwebapp/
+ 1052  ls
+ 1053  cat vl
+ 1054  cat values.yaml 
+ 1055  cat templates/deployment.yaml 
+ 1056  ls
+ 1057  heml lint firswebapp
+ 1058  helm first firstwebapp
+ 1059  helm lint  firstwebapp
+ 1060  ls
+ 1061  cd ..
+ 1062  helm lint  firstwebapp
+ 1063  vi ./firstwebapp/values.yaml +56
+ 1064  helm lint  firstwebapp
+ 1065  kubectl get pods
+ 1066  kubectl get svc
+ 1067  kubectl get deploy
+ 1068  kubectl port-forward helm version --client
+ 1069  kubectl port-forward app1-firstwebapp 8081:80
+ 1070  kubectl port-forward app1-firstwebapp-775db57f9-mf6bz   8081:80
+ 1071  kubectl port-forward app1-firstwebapp-775db57f9-mf6bz   8081:80 
+ 1072  kubectl port-forward app1-firstwebapp-775db57f9-mf6bz   8081:192.168.82.59:80 
+ 1073  kubectl port-forward app1-firstwebapp-775db57f9-mf6bz   8081:80 
+ 1074  kubectl get deploy
+ 1075  cd 
+ 1076  df -h
+ 1077  cd /etc/
+ 1078  ifocnfig
+ 1079  ifconfig
+ 1080  vi /etc/hostname 
+ 1081  ifconfig
+ 1082  dc /home/
+ 1083  ls
+ 1084  cd /home/
+ 1085  ls
+ 1086  cd /Senai_Agile_DEVOPS/
+ 1087  ls
+ 1088  cd helm
+ 1089  ls -lh
+ 1090  healm create colored
+ 1091  helm create colored
+ 1092  ls
+ 1093  cd colored/
+ 1094  ls
+ 1095  vi values.yaml 
+ 1096  ls
+ 1097  vi Chart.yaml 
+ 1098  vi templates/deployment.yaml 
+ 1099  ls
+ 1100  vi values.yaml 
+ 1101  ls
+ 1102  cat values.yaml 
+ 1103  vi  values.yaml 
+ 1104  vi Chart.yaml 
+ 1105  ls
+ 1106  vi values.yaml 
+ 1107  vi templates/deployment.yaml 
+ 1108  vi /root/.vimrc
+ 1109  ls
+ 1110  vi templates/deployment.yaml 
+ 1111  vi Chart.yaml 
+ 1112  vi values.yaml 
+ 1113  helm lint colored
+ 1114  cd ..
+ 1115  helm lint colored
+ 1116  vi ./colored/Chart.yaml 
+ 1117  vi ./colored/values.yaml 
+ 1118  vi colored/templates/ingress.yaml 
+ 1119  vi colored/templates/deployment.yaml 
+ 1120  helm lint colored
+ 1121  vi colored/templates/deployment.yaml  +33
+ 1122  cat exemplo1/firstwebapp/Chart.yaml 
+ 1123  cat exemplo1/firstwebapp/values.yaml 
+ 1124  vi colored/values.yaml 
+ 1125  helm lint colored
+ 1126  helm install  colored
+ 1127  kubectl get pods
+ 1128  netstat -tlna
+ 1129  helm stop  colored
+ 1130  helm unistall  colored
+ 1131  helm uninstall   colored
+ 1132  helm delete  colored
+ 1133  ls
+ 1134  helm search
+ 1135  helm init
+ 1136  ls
+ 1137  dhelm search
+ 1138  helm search
+ 1139  ls
+ 1140  helm uninstall   colored
+ 1141  helm delete  colored
+ 1142  kubectl get pods
+ 1143* kubectl inspect
+ 1144  helm delete --purge colored
+ 1145  ls
+ 1146  helm delete --purge colored
+ 1147  cd colored/
+ 1148  ls
+ 1149  helm delete --purge colored
+ 1150  cd ..
+ 1151  helm delete --purge colored
+ 1152  ls
+ 1153  helm delete --purge colored
+ 1154  ls
+ 1155  cd colored/
+ 1156  ls
+ 1157  vi templates/deployment.yaml 
+ 1158  vi values.yaml 
+ 1159  cd ..
+ 1160  helm lint colored/
+ 1161  helm lint colored
+ 1162  helm install  colored
+ 1163  helm install  colored --name colored-ca
+ 1164  kubectl get pods
+ 1165  ls
+ 1166  cat colored/values.yaml 
+ 1167  vi  colored/values.yaml 
+ 1168  helm delte --purge  colored --name colored-ca
+ 1169  helm delete --purge  colored --name colored-ca
+ 1170  helm delete --purge  colored 
+ 1171  kubectl get pods
+ 1172  helm delete --purge  colored-ca-78fc75d465-gbxfp
+ 1173  helm delete --purge  colored
+ 1174  helm delete --purge  colored-ca
+ 1175  kubectl get pods
+ 1176  ls
+ 1177  vi colored/values.yaml 
+ 1178  vi colored/templates/deployment.yaml 
+ 1179  vi colored/values.yaml 
+ 1180  helm lint colored
+ 1181  helm install  colored --name colored-power-full-ca
+ 1182  kubectl get pods
+ 1183  kubectl get svc
+ 1184  helm delete --purge  colored-power-full-ca 
+ 1185  kubectl get svc
+ 1186  ls
+ 1187  vi colored/values.yaml 
+ 1188  vi colored/templates/ingress.yaml 
+ 1189  vi colored/templates/service.yaml 
+ 1190  vi colored/templates/NOTES.txt 
+ 1191  vi colored/templates/deployment.yaml 
+ 1192  helm install  colored --name colored-power-full-ca
+ 1193  kubectl get svc
+ 1194  helm delete --purge  colored-power-full-ca 
+ 1195  ls
+ 1196  vi colored/values.yaml 
+ 1197  cat colored/Chart.yaml 
+ 1198  helm install  colored --name colored-power-full-ca
+ 1199  kubectl get ingress
+ 1200  kubectl get ingress 
+ 1201  kubectl get pods
+ 1202  kubectl get deployments
+ 1203  helm delete  colored --name colored-power-full-ca
+ 1204  helm delete --purge  colored-power-full-ca 
+ 1205  helm install  colored --name colored-power-full-ca
+ 1206  vi colored/Chart.yaml 
+ 1207  vi colored/values.yaml 
+ 1208  helm upgrade --install ./colored/
+ 1209  helm upgrade --install ./colored
+ 1210  helm upgrade --install colored-power-full-ca  ./colored
+ 1211  vi colored/Chart.yaml 
+ 1212  vi colored/values.yaml 
+ 1213  helm upgrade --install colored-power-full-ca  ./colored
+ 1214  helm upgrade  colored-power-full-ca  ./colored
+ 1215  vi colored/Chart.yaml 
+ 1216  vi colored/values.yaml 
+ 1217  helm upgrade  colored-power-full-ca  ./colored
+ 1218  kubectl get policy
+ 1219  kubectl get police | grep cha
+ 1220  kubectl get pods | grep pwoer
+ 1221  kubectl get pods | grep ca
+ 1222  watch kubectl get pods | grep ca
+ 1223  kubectl describe colored-power-full-ca-78cf54fd6c-xpswf 
+ 1224  kubectl describe pod colored-power-full-ca-78cf54fd6c-xpswf 
+ 1225* helm history
+ 1226  helm history  colored-power-full-ca  ./colored
+ 1227  helm delete --purge  colored-power-full-ca 
+ 1228  get ep
+ 1229  kubectl get ep
+ 1230  ls
+ 1231  cd ..
+ 1232  git commit *
+ 1233  ls
+ 1234  git commit *
+ 1235  git commit helm
+ 1236  git commit ./helm
+ 1237  git add *
+ 1238  git add * -r
+ 1239  git add * -A
+ 1240  git commit
+ 1241  git push
+ 1242  ls
+ 1243  cd helm/
+ 1244  ls
+ 1245  history 
+ 1246  history  >> 20191111-history-cmd.txt
