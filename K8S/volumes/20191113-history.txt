@@ -1,0 +1,184 @@
+   30  history 
+   31   kubectl apply -f ex1.yaml 
+   32  kubectl get pods
+   33  kubectl get svc 
+   34  kubectl port-forward nginx-alpine-charles.a 
+   35  kubectl port-forward nginx-alpine-charles.a  80:80
+   36  kubect delete pod nginx-alpine-charles.a 
+   37  kubectl delete pod nginx-alpine-charles.a 
+   38  kubectl get pods
+   39  kubectl get svc
+   40  kubectl get deployments
+   41* kubectl get p
+   42   kubectl apply -f ex1.yaml 
+   43  kubectl get pods
+   44   kubectl edit nginx-alpine-charles.a  
+   45   kubectl describe  nginx-alpine-charles.a  
+   46  kubect delete pod nginx-alpine-charles.a 
+   47  kubectl delete pod nginx-alpine-charles.a 
+   48  kubectl get pv
+   49  kubectl get pv -n charles.a
+   50  kubectl get namespaces
+   51  kubectl get pv -n default
+   52  kubectl get resource
+   53  kubectl get storageclass
+   54  ls
+   55  helm create exemplo2
+   56  ls
+   57  rm exemplo2/
+   58  rm exemplo2/ -rf
+   59  cd ..
+   60  ls
+   61  rm exemplo2/ -rf
+   62  rm exemplo_2/ -rf
+   63  rm exemplo_02/ -rf
+   64  ls
+   65  helm create exemplo_02
+   66  ls
+   67  cd exemplo_02
+   68  ls
+   69  vi readme.MD
+   70  ls
+   71  vi templates/deployment.yaml 
+   72  vim templates/deployment.yaml 
+   73  ls
+   74  vi values.yaml 
+   75  vim templates/deployment.yaml 
+   76  vi values.yaml 
+   77  vim values.yaml 
+   78  cd ..
+   79  helm -lint ./exemplo_02/
+   80  helm -lint exemplo_02
+   81  ls
+   82  helm lint exemplo_02
+   83  vi ./exemplo_02/templates/deployment.yaml +25
+   84  vim ./exemplo_02/templates/deployment.yaml +25
+   85  helm lint exemplo_02
+   86  vim ./exemplo_02/templates/deployment.yaml +25
+   87  helm lint exemplo_02
+   88  vim ./exemplo_02/templates/deployment.yaml +25
+   89  helm lint exemplo_02
+   90  helm upgrade --install test_vol_charles.a exemplo_02 
+   91  helm upgrade --install test-vol-charles.a exemplo_02 
+   92  helm upgrade --install test-vol-charles exemplo_02 
+   93  helm upgrade --install test_vol_charles exemplo_02 
+   94  helm upgrade --install volcharles ./exemplo_02 
+   95  ls
+   96  vi exemplo_02/values.yaml 
+   97  helm lint exemplo_02
+   98  vi exemplo_02/Chart.yaml 
+   99  helm lint exemplo_02
+  100  vim  exemplo_02/values.yaml +52
+  101  helm lint exemplo_02
+  102  helm --install vol-charles.a ./exemplo_02
+  103  helm --install vol-charles.a exemplo_02
+  104  helm --install vol-charles.a ./exemplo_02
+  105  ls
+  106  helm --install vol-charles.a ./exemplo_02/
+  107  helm --install ./exemplo_02  vol-charles.a 
+  108  helm --install exemplo_02  --name vol-charles.a 
+  109  helm install exemplo_02  --name vol-charles.a 
+  110  vi exemplo_02/Chart.yaml 
+  111  helm install exemplo_02  --name vol-charles.a 
+  112  helm ls --all
+  113  helm del --purge vol-charles.a 
+  114  helm del --purge volcharles
+  115  helm del --purge test-vol-charles 
+  116  helm del --purge test-vol-charles.a
+  117  helm ls --all
+  118  helm install exemplo_02  --name vol-charles.a 
+  119  helm ls --all
+  120  helm del --purge vol-charles.a
+  121  helm install exemplo_02  --name vol-charles 
+  122  ls
+  123  cd exemplo_0
+  124  cd exemplo_02/
+  125  ls
+  126  grep exemplo_ *
+  127  grep exemplo_ * -r
+  128  ls
+  129  vi Chart.yaml 
+  130  cd ..
+  131  helm install exemplo_02  --name vol-charles 
+  132  helm upgrade --install exemplo_02  --name vol-charles 
+  133  helm upgrade --install exemplo_02   vol-charles 
+  134  helm lint exemplo_02
+  135  helm ls --all
+  136  helm del --purge vol-charle
+  137  helm del --purge vol-charles
+  138  helm upgrade --install exemplo_02   vol-charles 
+  139  helm repo update
+  140  helm upgrade --install exemplo_02   vol-charles 
+  141  helm install exemplo_02  --name vol-charles 
+  142  helm ls --all
+  143  cd 
+  144  ls
+  145  helm install exemplo_02  --name vol-charles 
+  146  helm --all
+  147  helm lint exemplo_02
+  148  ls
+  149  cd -
+  150  ls
+  151  helm lint exemplo_02
+  152  helm ls --all
+  153  helm del --purge vol-charles
+  154  helm install exemplo_02  --name vol-charles 
+  155  mv exemplo_02/ exemplo_02-fucked
+  156  helm create volume-test
+  157  cd volume-test/
+  158  ls
+  159  vi values.yaml 
+  160  cat ../exemplo_02-fucked/values.yaml 
+  161  vi Chart.yaml 
+  162  ls
+  163  vim values.yaml 
+  164  cat ../exemplo_02-fucked/values.yaml 
+  165  vim values.yaml 
+  166  vi templates/deployment.yaml 
+  167  vim  templates/deployment.yaml 
+  168  vim  values.yaml 
+  169  cd ..
+  170  ls
+  171  helm upgrade --install volume-test   vol-charles 
+  172  helm install volume-test --name   vol-charles 
+  173  helm ls --all
+  174  helm del --purge vol-charles
+  175  helm install volume-test --name   vol-charles 
+  176  vim  ./volume-test/values.yaml 
+  177  helm lint volume-test/
+  178  helm ls --all
+  179  helm ls --all | grep cha
+  180  vim volume-test/templates/deployment.yaml +25
+  181  vim  ./volume-test/values.yaml 
+  182  helm lint volume-test/
+  183  helm lint volume-test
+  184  ls
+  185  cd volume-test/
+  186  ls
+  187  cd templates/
+  188  ls
+  189  diff ../../exemplo_02-fucked/templates/deployment.yaml deployment.yaml 
+  190  ls
+  191  vim deployment.yaml 
+  192  ls
+  193  cd ..
+  194  ls
+  195  vi values.yaml 
+  196  vim values.yaml 
+  197  helm lint volume-test
+  198  cd ..
+  199  helm lint volume-test
+  200  helm install volume-test --name   vol-charles 
+  201  kubectl  get pod
+  202   kubectl port-forward vol-charles-volume-test-54687b49fb-vh45h 1516:1516
+  203  ls
+  204  cd ..
+  205  ls
+  206  git add *
+  207  cd volumes/
+  208  git add *
+  209  ls
+  210  vi volume-test/read.MD
+  211  gommit *
+  212  ls
+  213  history >> 20191113-history.txt
