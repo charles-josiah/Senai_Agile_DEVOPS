@@ -1,0 +1,33 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: charles-exemplo-02        
+data:
+  entrypoint.sh: |-
+    #!/bin/bash
+    echo "Do this"
+    echo "Executando algo manero"
+    echo "Do that"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: charles-pod
+spec:
+  containers:
+  - name: charles-container
+    image: "ubuntu:14.04"
+    command:
+    - /bin/entrypoint.sh
+    volumeMounts:
+    - name: charles-configmap-volume
+      mountPath: /bin/entrypoint.sh
+      readOnly: true
+      subPath: entrypoint.sh
+  volumes:
+  - name: charles-configmap-volume
+    configMap:
+      defaultMode: 0700
+      name: charles-exemplo-02
+  restartPolicy: OnFailure

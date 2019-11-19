@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: charles-kuard-config
+spec:
+  containers:
+    - name: test-container
+      image: gcr.io/kuar-demo/kuard-amd64:1
+      imagePullPolicy: Always
+      command:
+        - "/kuard"
+        - "$(EXTRA_PARAM)"
+      env:
+        - name: parm1
+          valueFrom:
+            configMapKeyRef:
+              name: charles-my-config
+              key: parm1
+        - name: parm2
+          valueFrom:
+            configMapKeyRef:
+              name: charles-my-config
+              key: parm2
+      volumeMounts:
+        - name: charles-config-volume
+          mountPath: /config
+  volumes:
+    - name: charles-config-volume
+      configMap:
+        name: charles-my-config
+  restartPolicy: Never
+
