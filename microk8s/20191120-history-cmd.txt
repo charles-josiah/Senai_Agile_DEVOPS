@@ -1,0 +1,1000 @@
+  239  helm version --client
+  240  kubectl get pods
+  241  cd /Senai_Agile_DEVOPS/
+  242  ls
+  243  mkdir helm
+  244  git pull
+  245  git add *
+  246  ls
+  247  cd helm/
+  248  ls
+  249  mkdir exemplo1 
+  250  cd exemplo1/
+  251  ls
+  252  helm create meutemplate firstwebapp
+  253  helm create -p meutemplate firstwebapp
+  254  ls
+  255  helm create firstwebapp
+  256  ls
+  257  cd firstwebapp/
+  258  ls
+  259  vi values.yaml 
+  260  ls
+  261  vi Chart.yaml 
+  262  vi values.yaml 
+  263  ls
+  264  ls templates/
+  265  ls templates/ -lh
+  266  cd ..
+  267  ls
+  268  cd firstwebapp/
+  269  ls
+  270  cat vl
+  271  cat values.yaml 
+  272  cat templates/deployment.yaml 
+  273  ls
+  274  heml lint firswebapp
+  275  helm first firstwebapp
+  276  helm lint  firstwebapp
+  277  ls
+  278  cd ..
+  279  helm lint  firstwebapp
+  280  vi ./firstwebapp/values.yaml +56
+  281  helm lint  firstwebapp
+  282  kubectl get pods
+  283  kubectl get svc
+  284  kubectl get deploy
+  285  kubectl port-forward helm version --client
+  286  kubectl port-forward app1-firstwebapp 8081:80
+  287  kubectl port-forward app1-firstwebapp-775db57f9-mf6bz   8081:80
+  288  kubectl port-forward app1-firstwebapp-775db57f9-mf6bz   8081:80 
+  289  kubectl port-forward app1-firstwebapp-775db57f9-mf6bz   8081:192.168.82.59:80 
+  290  kubectl port-forward app1-firstwebapp-775db57f9-mf6bz   8081:80 
+  291  kubectl get deploy
+  292  cd 
+  293  df -h
+  294  cd /etc/
+  295  ifocnfig
+  296  ifconfig
+  297  vi /etc/hostname 
+  298  ifconfig
+  299  dc /home/
+  300  ls
+  301  cd /home/
+  302  ls
+  303  cd /Senai_Agile_DEVOPS/
+  304  ls
+  305  cd helm
+  306  ls -lh
+  307  healm create colored
+  308  helm create colored
+  309  ls
+  310  cd colored/
+  311  ls
+  312  vi values.yaml 
+  313  ls
+  314  vi Chart.yaml 
+  315  vi templates/deployment.yaml 
+  316  ls
+  317  vi values.yaml 
+  318  ls
+  319  cat values.yaml 
+  320  vi  values.yaml 
+  321  vi Chart.yaml 
+  322  ls
+  323  vi values.yaml 
+  324  vi templates/deployment.yaml 
+  325  vi /root/.vimrc
+  326  ls
+  327  vi templates/deployment.yaml 
+  328  vi Chart.yaml 
+  329  vi values.yaml 
+  330  helm lint colored
+  331  cd ..
+  332  helm lint colored
+  333  vi ./colored/Chart.yaml 
+  334  vi ./colored/values.yaml 
+  335  vi colored/templates/ingress.yaml 
+  336  vi colored/templates/deployment.yaml 
+  337  helm lint colored
+  338  vi colored/templates/deployment.yaml  +33
+  339  cat exemplo1/firstwebapp/Chart.yaml 
+  340  cat exemplo1/firstwebapp/values.yaml 
+  341  vi colored/values.yaml 
+  342  helm lint colored
+  343  helm install  colored
+  344  kubectl get pods
+  345  netstat -tlna
+  346  helm stop  colored
+  347  helm unistall  colored
+  348  helm uninstall   colored
+  349  helm delete  colored
+  350  ls
+  351  helm search
+  352  helm init
+  353  ls
+  354  dhelm search
+  355  helm search
+  356  ls
+  357  helm uninstall   colored
+  358  helm delete  colored
+  359  kubectl get pods
+  360  kubectl inspect
+  361  helm delete --purge colored
+  362  ls
+  363  helm delete --purge colored
+  364  cd colored/
+  365  ls
+  366  helm delete --purge colored
+  367  cd ..
+  368  helm delete --purge colored
+  369  ls
+  370  helm delete --purge colored
+  371  ls
+  372  cd colored/
+  373  ls
+  374  vi templates/deployment.yaml 
+  375  vi values.yaml 
+  376  cd ..
+  377  helm lint colored/
+  378  helm lint colored
+  379  helm install  colored
+  380  helm install  colored --name colored-ca
+  381  kubectl get pods
+  382  ls
+  383  cat colored/values.yaml 
+  384  vi  colored/values.yaml 
+  385  helm delte --purge  colored --name colored-ca
+  386  helm delete --purge  colored --name colored-ca
+  387  helm delete --purge  colored 
+  388  kubectl get pods
+  389  helm delete --purge  colored-ca-78fc75d465-gbxfp
+  390  helm delete --purge  colored
+  391  helm delete --purge  colored-ca
+  392  kubectl get pods
+  393  ls
+  394  vi colored/values.yaml 
+  395  vi colored/templates/deployment.yaml 
+  396  vi colored/values.yaml 
+  397  helm lint colored
+  398  helm install  colored --name colored-power-full-ca
+  399  kubectl get pods
+  400  kubectl get svc
+  401  helm delete --purge  colored-power-full-ca 
+  402  kubectl get svc
+  403  ls
+  404  vi colored/values.yaml 
+  405  vi colored/templates/ingress.yaml 
+  406  vi colored/templates/service.yaml 
+  407  vi colored/templates/NOTES.txt 
+  408  vi colored/templates/deployment.yaml 
+  409  helm install  colored --name colored-power-full-ca
+  410  kubectl get svc
+  411  helm delete --purge  colored-power-full-ca 
+  412  ls
+  413  vi colored/values.yaml 
+  414  cat colored/Chart.yaml 
+  415  helm install  colored --name colored-power-full-ca
+  416  kubectl get ingress
+  417  kubectl get ingress 
+  418  kubectl get pods
+  419  kubectl get deployments
+  420  helm delete  colored --name colored-power-full-ca
+  421  helm delete --purge  colored-power-full-ca 
+  422  helm install  colored --name colored-power-full-ca
+  423  vi colored/Chart.yaml 
+  424  vi colored/values.yaml 
+  425  helm upgrade --install ./colored/
+  426  helm upgrade --install ./colored
+  427  helm upgrade --install colored-power-full-ca  ./colored
+  428  vi colored/Chart.yaml 
+  429  vi colored/values.yaml 
+  430  helm upgrade --install colored-power-full-ca  ./colored
+  431  helm upgrade  colored-power-full-ca  ./colored
+  432  vi colored/Chart.yaml 
+  433  vi colored/values.yaml 
+  434  helm upgrade  colored-power-full-ca  ./colored
+  435  kubectl get policy
+  436  kubectl get police | grep cha
+  437  kubectl get pods | grep pwoer
+  438  kubectl get pods | grep ca
+  439  watch kubectl get pods | grep ca
+  440  kubectl describe colored-power-full-ca-78cf54fd6c-xpswf 
+  441  kubectl describe pod colored-power-full-ca-78cf54fd6c-xpswf 
+  442  helm history
+  443  helm history  colored-power-full-ca  ./colored
+  444  helm delete --purge  colored-power-full-ca 
+  445  get ep
+  446  kubectl get ep
+  447  ls
+  448  cd ..
+  449  git commit *
+  450  ls
+  451  git commit *
+  452  git commit helm
+  453  git commit ./helm
+  454  git add *
+  455  git add * -r
+  456  git add * -A
+  457  git commit
+  458  git push
+  459  ls
+  460  cd helm/
+  461  ls
+  462  history 
+  463  history  >> 20191111-history-cmd.txt
+  464  cat 20191111-history-cmd.txt 
+  465  ls
+  466  git add *
+  467  git commit
+  468  git push
+  469  helm history  colored-power-full-ca  ./colored
+  470  exit
+  471  history 
+  472   kubectl get policy
+  473   kubectl get police
+  474  kubectl get svc
+  475  kubectl get deployments
+  476  kubectl get deployments all
+  477  get posg
+  478  kubects get pods
+  479  kubectl get pods
+  480  kubectl 
+  481   
+  482  pwd
+  483  cd /Senai_Agile_DEVOPS/
+  484  ls
+  485  cd K8S/
+  486  ls
+  487  cd volumes/
+  488  ls
+  489  cat exemplo_02-fucked/templates/deployment.yaml 
+  490  curl localhost:1516
+  491  ls
+  492  helm create volume-bash
+  493  cd volume-
+  494  cd volume-bash/
+  495  ls
+  496  vi Chart.yaml 
+  497  ls
+  498  vim values.yaml 
+  499  ls
+  500  vim  templates/deployment.yaml 
+  501  vim ../volume-bash/values.yaml 
+  502  ls
+  503  cd ..
+  504  helm lint volume-yaml
+  505  helm lint ./volume-yaml
+  506  helm lint volume-bash
+  507  vim ./volume-bash/values.yaml +56
+  508  helm lint volume-bash
+  509  helm install  volume-bash  --name volume-bash
+  510  kubectl get pods
+  511  kubectl port-forward vol-charles-volume-test-54687b49fb-wt5z4  2222:22 
+  512  vi volume-test/values.yaml 
+  513  vi volume-bash/values.yaml 
+  514  vi volume-bash/templates/deployment.yaml 
+  515  kubectl get pods
+  516  kubectl port-forward volume-bash-6fc555666d-vmlbs  2222:22 
+  517  history 
+  518   kubectl apply -f ex1.yaml 
+  519  kubectl get pods
+  520  kubectl get svc 
+  521  kubectl port-forward nginx-alpine-charles.a 
+  522  kubectl port-forward nginx-alpine-charles.a  80:80
+  523  kubect delete pod nginx-alpine-charles.a 
+  524  kubectl delete pod nginx-alpine-charles.a 
+  525  kubectl get pods
+  526  kubectl get svc
+  527  kubectl get deployments
+  528  kubectl get p
+  529   kubectl apply -f ex1.yaml 
+  530  kubectl get pods
+  531   kubectl edit nginx-alpine-charles.a  
+  532   kubectl describe  nginx-alpine-charles.a  
+  533  kubect delete pod nginx-alpine-charles.a 
+  534  kubectl delete pod nginx-alpine-charles.a 
+  535  kubectl get pv
+  536  kubectl get pv -n charles.a
+  537  kubectl get namespaces
+  538  kubectl get pv -n default
+  539  kubectl get resource
+  540  kubectl get storageclass
+  541  ls
+  542  helm create exemplo2
+  543  ls
+  544  rm exemplo2/
+  545  rm exemplo2/ -rf
+  546  cd ..
+  547  ls
+  548  rm exemplo2/ -rf
+  549  rm exemplo_2/ -rf
+  550  rm exemplo_02/ -rf
+  551  ls
+  552  helm create exemplo_02
+  553  ls
+  554  cd exemplo_02
+  555  ls
+  556  vi readme.MD
+  557  ls
+  558  vi templates/deployment.yaml 
+  559  vim templates/deployment.yaml 
+  560  ls
+  561  vi values.yaml 
+  562  vim templates/deployment.yaml 
+  563  vi values.yaml 
+  564  vim values.yaml 
+  565  cd ..
+  566  helm -lint ./exemplo_02/
+  567  helm -lint exemplo_02
+  568  ls
+  569  helm lint exemplo_02
+  570  vi ./exemplo_02/templates/deployment.yaml +25
+  571  vim ./exemplo_02/templates/deployment.yaml +25
+  572  helm lint exemplo_02
+  573  vim ./exemplo_02/templates/deployment.yaml +25
+  574  helm lint exemplo_02
+  575  vim ./exemplo_02/templates/deployment.yaml +25
+  576  helm lint exemplo_02
+  577  helm upgrade --install test_vol_charles.a exemplo_02 
+  578  helm upgrade --install test-vol-charles.a exemplo_02 
+  579  helm upgrade --install test-vol-charles exemplo_02 
+  580  helm upgrade --install test_vol_charles exemplo_02 
+  581  helm upgrade --install volcharles ./exemplo_02 
+  582  ls
+  583  vi exemplo_02/values.yaml 
+  584  helm lint exemplo_02
+  585  vi exemplo_02/Chart.yaml 
+  586  helm lint exemplo_02
+  587  vim  exemplo_02/values.yaml +52
+  588  helm lint exemplo_02
+  589  helm --install vol-charles.a ./exemplo_02
+  590  helm --install vol-charles.a exemplo_02
+  591  helm --install vol-charles.a ./exemplo_02
+  592  ls
+  593  helm --install vol-charles.a ./exemplo_02/
+  594  helm --install ./exemplo_02  vol-charles.a 
+  595  helm --install exemplo_02  --name vol-charles.a 
+  596  helm install exemplo_02  --name vol-charles.a 
+  597  vi exemplo_02/Chart.yaml 
+  598  helm install exemplo_02  --name vol-charles.a 
+  599  helm ls --all
+  600  helm del --purge vol-charles.a 
+  601  helm del --purge volcharles
+  602  helm del --purge test-vol-charles 
+  603  helm del --purge test-vol-charles.a
+  604  helm ls --all
+  605  helm install exemplo_02  --name vol-charles.a 
+  606  helm ls --all
+  607  helm del --purge vol-charles.a
+  608  helm install exemplo_02  --name vol-charles 
+  609  ls
+  610  cd exemplo_0
+  611  cd exemplo_02/
+  612  ls
+  613  grep exemplo_ *
+  614  grep exemplo_ * -r
+  615  ls
+  616  vi Chart.yaml 
+  617  cd ..
+  618  helm install exemplo_02  --name vol-charles 
+  619  helm upgrade --install exemplo_02  --name vol-charles 
+  620  helm upgrade --install exemplo_02   vol-charles 
+  621  helm lint exemplo_02
+  622  helm ls --all
+  623  helm del --purge vol-charle
+  624  helm del --purge vol-charles
+  625  helm upgrade --install exemplo_02   vol-charles 
+  626  helm repo update
+  627  helm upgrade --install exemplo_02   vol-charles 
+  628  helm install exemplo_02  --name vol-charles 
+  629  helm ls --all
+  630  cd 
+  631  ls
+  632  helm install exemplo_02  --name vol-charles 
+  633  helm --all
+  634  helm lint exemplo_02
+  635  ls
+  636  cd -
+  637  ls
+  638  helm lint exemplo_02
+  639  helm ls --all
+  640  helm del --purge vol-charles
+  641  helm install exemplo_02  --name vol-charles 
+  642  mv exemplo_02/ exemplo_02-fucked
+  643  helm create volume-test
+  644  cd volume-test/
+  645  ls
+  646  vi values.yaml 
+  647  cat ../exemplo_02-fucked/values.yaml 
+  648  vi Chart.yaml 
+  649  ls
+  650  vim values.yaml 
+  651  cat ../exemplo_02-fucked/values.yaml 
+  652  vim values.yaml 
+  653  vi templates/deployment.yaml 
+  654  vim  templates/deployment.yaml 
+  655  vim  values.yaml 
+  656  cd ..
+  657  ls
+  658  helm upgrade --install volume-test   vol-charles 
+  659  helm install volume-test --name   vol-charles 
+  660  helm ls --all
+  661  helm del --purge vol-charles
+  662  helm install volume-test --name   vol-charles 
+  663  vim  ./volume-test/values.yaml 
+  664  helm lint volume-test/
+  665  helm ls --all
+  666  helm ls --all | grep cha
+  667  vim volume-test/templates/deployment.yaml +25
+  668  vim  ./volume-test/values.yaml 
+  669  helm lint volume-test/
+  670  helm lint volume-test
+  671  ls
+  672  cd volume-test/
+  673  ls
+  674  cd templates/
+  675  ls
+  676  diff ../../exemplo_02-fucked/templates/deployment.yaml deployment.yaml 
+  677  ls
+  678  vim deployment.yaml 
+  679  ls
+  680  cd ..
+  681  ls
+  682  vi values.yaml 
+  683  vim values.yaml 
+  684  helm lint volume-test
+  685  cd ..
+  686  helm lint volume-test
+  687  helm install volume-test --name   vol-charles 
+  688  kubectl  get pod
+  689   kubectl port-forward vol-charles-volume-test-54687b49fb-vh45h 1516:1516
+  690  ls
+  691  cd ..
+  692  ls
+  693  git add *
+  694  cd volumes/
+  695  git add *
+  696  ls
+  697  vi volume-test/read.MD
+  698  gommit *
+  699  ls
+  700  history >> 20191113-history.txt
+  701  git commit -a 
+  702  git push
+  703  ls
+  704  git add *
+  705  git commit -a 
+  706  git push
+  707  ls
+  708  cd volume-test/
+  709  ls
+  710  mv read.MD readme.MD 
+  711  cd ..
+  712  ls
+  713  cd volume-bash/
+  714  ls
+  715  vi readme.MD
+  716  cd ..
+  717  git add *
+  718  git add --all
+  719  git commit *
+  720  git push
+  721  ssh loclahost -p 2222
+  722  ssh localhost -p 2222
+  723  ssh root@localhost -p 2222
+  724  gcloud container clusters get-credentials standard-cluster-1 --zone us-east1-b --project senai-257922
+  725  cd /Senai_Agile_DEVOPS/
+  726  ls
+  727  cd K8S/
+  728  ls
+  729  git pull
+  730  mkdir configmap
+  731  cd configmap/
+  732  ls
+  733  vi config.txt
+  734  kubectl create configmap charles-my-config --from-file=config.txt --from-literal=parm1=extra-value --from-literal=parm2=extra-value
+  735  kubectl get configmaps
+  736  kubectl get configmaps charles-my-config   -o yaml
+  737  wget https://github.com/dvriesman/agile-devops/blob/master/week4/k8s/configmap/kuard-config.yaml
+  738  mkdir files 
+  739  mv kuard-config.yaml ./files/
+  740  cat files/kuard-config.yaml 
+  741  rm ./files/kuard-config.yaml 
+  742  wget https://raw.githubusercontent.com/dvriesman/agile-devops/master/week4/k8s/configmap/kuard-config.yaml
+  743  cat kuard-config.yaml 
+  744  mv kuard-config.yaml ./files/
+  745  ls
+  746  cat files/kuard-config.yaml 
+  747  vi files/kuard-config.yaml 
+  748  kubectl exec kuard-config -- sh -xc "echo EXTRA_PARAM: $parm1; echo ANOTHER_PARAM: $parm2 && cat /config/my-config.txt"
+  749  kubectl apply -f files/kuard-config.yaml
+  750  vi files/kuard-config.yaml +23
+  751  vim  files/kuard-config.yaml +23
+  752  kubectl apply -f files/kuard-config.yaml
+  753  vim  files/kuard-config.yaml +23
+  754  vi config.txt
+  755  vim  files/kuard-config.yaml +23
+  756  kubectl get configmaps
+  757  vim  files/kuard-config.yaml +23
+  758  kubectl apply -f files/kuard-config.yaml
+  759  vim  files/kuard-config.yaml +23
+  760  kubectl apply -f files/kuard-config.yaml
+  761  vim  files/kuard-config.yaml +23
+  762  cd /se
+  763  cd /Senai_Agile_DEVOPS/
+  764  ls
+  765  cd k8
+  766  ls
+  767  cd K8S/
+  768  ls
+  769  cd configmap/
+  770  ls
+  771  vi config.txt 
+  772  vi files/kuard-config.yaml 
+  773  ls
+  774  cd exemplo_02/
+  775  ls
+  776  vi exemplo_02.yaml 
+  777  kubectl  get pod
+  778  vi exemplo_02.yaml 
+  779  kubectl apply -f  exemplo_02.yaml 
+  780  s
+  781  vi exemplo_02.yaml 
+  782  kubectl apply -f  exemplo_02.yaml 
+  783  alias k=kubectl
+  784  k get pods
+  785  k logs pods charles-pod   
+  786  k logs  charles-pod   
+  787  k get pods
+  788  k  logs charles-pod 
+  789  k  describe pod  charles-pod 
+  790  k delete pod charles-pod
+  791  rm .exemplo_02.yaml.swp 
+  792  vi exemplo_02.yaml 
+  793  kubectl apply -f  exemplo_02.yaml 
+  794  k get pods
+  795  k  logs charles-pod 
+  796  k delete pod charles-pod
+  797  k get gateway 
+  798  k get gateway
+  799  k get virtualservers
+  800  cd ..
+  801  ls
+  802  mv exemplo1/ exemplo_01
+  803  git commit 
+  804  git ad *
+  805  git add *
+  806  cd ..
+  807  git add *
+  808  git commit 
+  809  git push
+  810  git commit
+  811  fit pull
+  812  git pul
+  813  git pull
+  814  cd 
+  815  ls
+  816  cd /Senai_Agile_DEVOPS/
+  817  ls
+  818  cd K8S/
+  819  ls
+  820  cd configmap/
+  821  ls
+  822  vi files/kuard-config.yaml 
+  823  kubectl apply -f files/kuard-config.yaml
+  824  ls
+  825  kubectl apply -f files/kuard-config.yaml
+  826  ls
+  827  vi config.txt 
+  828  vi files/kuard-config.yaml 
+  829  kubectl apply -f files/kuard-config.yaml
+  830  vi files/kuard-config.yaml 
+  831  kubectl apply -f files/kuard-config.yaml
+  832  kubectl exec kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat /charles-config/my-config.txt"
+  833  ls
+  834  vi files/kuard-config.yaml 
+  835  kubectl exec kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat config/my-config.txt"
+  836  kubectl exec kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat /config/my-config.txt"
+  837  kubectl get configmaps  charles-my-config -o yaml
+  838  kubectl exec kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat config/my-config.txt"
+  839  kubectl exec kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat /config/my-config.txt"
+  840  vi files/kuard-config.yaml 
+  841  kubectl exec charles-kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat /config/my-config.txt"
+  842  vi files/kuard-config.yaml 
+  843  kubectl exec charles-kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat /config/my-config.txt"
+  844  ls
+  845  kubectl exec charles-kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat /config/config.txt"
+  846  kubectl get configmaps  charles-my-config -o yaml
+  847  vi files/kuard-config.yaml 
+  848  kubectl apply -f files/kuard-config.yaml
+  849  kubectl upgrade apply -f files/kuard-config.yaml
+  850  kubectl upgrade  -f files/kuard-config.yaml
+  851  kubectl apply -f files/kuard-config.yaml
+  852  kubectl exec charles-kuard-config -- sh -xc "echo v1: $parm1; echo v2: $parm2  && cat /config/config.txt"
+  853  kubectl exec charles-kuard-config -- sh -xc "echo  $parm1; echo $parm2  && cat /config/config.txt"
+  854  kubectl get configmaps my-config -o yaml
+  855  kubectl get configmaps charles-my-config -o yaml
+  856  vi files/kuard-config.yaml 
+  857  kubectl get configmaps charles-my-config -o yaml
+  858  vi files/kuard-config.yaml 
+  859  kubectl upgrade  -f files/kuard-config.yaml
+  860  kubectl aply  -f files/kuard-config.yaml
+  861  kubectl apply  -f files/kuard-config.yaml
+  862  kubectl get pods | grep charles
+  863  kubectl  delete pod charles-kuard-config    
+  864  kubectl apply  -f files/kuard-config.yaml
+  865  kubectl exec charles-kuard-config -- sh -xc "echo  $parm1; echo $parm2  && cat /config/config.txt"
+  866  vim files/kuard-config.yaml 
+  867  kubectl exec charles-kuard-config -- sh -xc "echo  $parm1; echo $parm2  && cat /config/config.txt"
+  868  kubectl get configmaps charles-my-config -o yaml
+  869  vim files/kuard-config.yaml 
+  870  kubectl exec charles-kuard-config -- sh -xc "echo  $parm1; echo $parm2  && cat /config/config.txt"
+  871  dkubectl port-forward kuard-config 8080:8080 &
+  872  kubectl port-forward charles-kuard-config 8080:8080 
+  873  kubectl exec charles-kuard-config -- bash  -xc "echo $parm1; echo $parm2  && cat /config/config.txt"
+  874  kubectl exec charles-kuard-config -- sh  -xc "echo $PARM1; echo $parm2  && cat /config/config.txt"
+  875  kubectl exec charles-kuard-config  -- sh  -xc "echo '$parm1'; echo $parm2  && cat /config/config.txt"
+  876  kubectl exec -it charles-kuard-config  -- sh  
+  877  kubectl exec charles-kuard-config  -- sh  -x "echo '$parm1'; echo $parm2  && cat /config/config.txt"
+  878  kubectl exec charles-kuard-config  -- sh  -cx "echo '$parm1'; echo $parm2  && cat /config/config.txt"
+  879  kubectl exec charles-kuard-config  -- sh  -cx "export ; echo $parm2  && cat /config/config.txt"
+  880  kubectl exec charles-kuard-config  -- sh  -cx "export ; echo $parm2  && cat /config/config.txt;  $parm3=33;  echo $parm3 "
+  881  kubectl exec charles-kuard-config  -- sh  -cx "export ; echo $parm2  && cat /config/config.txt;  parm3=33;  echo $parm3 "
+  882  ls
+  883  kubectl  delete pod charles-kuard-config    
+  884  kubectl create configmap my-config
+  885  kubectl delete  configmap charles-my-config
+  886  cd ..
+  887  ls
+  888  cd configmap/
+  889  ls
+  890  mkdir exemplo1 
+  891  mv * ./exemplo1/
+  892  ls
+  893  mkdir exemplo_02
+  894  cd exemplo_02/
+  895  ls
+  896  wget https://raw.githubusercontent.com/dvriesman/agile-devops/master/week4/k8s/configmap/exemplo_mais_punko.yaml
+  897  ls
+  898  kubectl create configmap my-config
+  899  kubectl create configmap charles-exemplo-02 my-config
+  900  kubectl create configmap charles-exemplo-02
+  901  ls
+  902  kubectl get configmaps
+  903  vi exemplo_mais_punko.yaml 
+  904  kubectl apply  -f exemplo_mais_punko.yaml 
+  905  cat exemplo_mais_punko.yaml 
+  906  kubectl get configmaps
+  907  mv exemplo_mais_punko.yaml exemplo_02.yaml
+  908  vi exemplo_02.yaml 
+  909  kubectl apply exemplo_02.yaml 
+  910  kubectl apply -f exemplo_02.yaml 
+  911  kubectl get configmaps
+  912  kubectl get configmaps | charle
+  913  kubectl get configmaps | grep charle
+  914  kubectl get pods
+  915  kubectl exec charles-pod  
+  916  kubectl exec charles-pod   -- sh
+  917  kubectl exec -it  charles-pod   -- sh
+  918  kubectl   charles-pod   
+  919  kubectl get pods
+  920  kubectl delete pods charles-pod 
+  921  vi exemplo_02.yaml 
+  922  ifconfig
+  923  iptables -L -n
+  924  netstat -tlna
+  925  ps -aux
+  926  iptables -L -n
+  927  systemctl stop firewalld
+  928  systemctl disable firewalld
+  929  loadkeys us
+  930  tail /var/log/messages
+  931  tail /var/log/secure
+  932  route -n
+  933  cd /Senai_Agile_DEVOPS/
+  934  ls
+  935  sudo snap install microk8s --classic
+  936  yum install snap
+  937   yum install snapd
+  938  sudo snap install microk8s --classic
+  939  sudo systemctl enable --now snapd.socket
+  940  sudo ln -s /var/lib/snapd/snap /snap
+  941  sudo snap install microk8s --classic
+  942  yum search microk8s
+  943  yum install snapd
+  944   systemctl enable --now snapd.socket
+  945   ln -s /var/lib/snapd/snap /snap
+  946   snap install microk8s --classic
+  947  df -h
+  948  usermod -a -G microk8s charles.a
+  949  v
+  950  microk8s.enable istio
+  951  snap install microk8s --classic
+  952  cd 
+  953  curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.3.5 sh -
+  954  export PATH="$PATH:/root/istio-1.3.5/bin"
+  955   istioctl verify-install 
+  956  updatedb 
+  957  locate microk8s
+  958  locate microk8s.ena
+  959  /var/lib/snapd/snap/bin/microk8s.enable
+  960  /var/lib/snapd/snap/bin/microk8s.enable istio
+  961   istioctl verify-install 
+  962  mi
+  963  /var/lib/snapd/snap/bin/microk8s.enable istio
+  964  /var/lib/snapd/snap/bin/microk8s.kubectl get pods
+  965  /var/lib/snapd/snap/bin/microk8s.kubectl get namespaces
+  966  /var/lib/snapd/snap/bin/microk8s.kubectl create -n charles
+  967  /var/lib/snapd/snap/bin/microk8s.kubectl create namespace charles
+  968  /var/lib/snapd/snap/bin/microk8s.kubectl config set-context
+  969  /var/lib/snapd/snap/bin/microk8s.kubectl config set-context $(mikro8s.kubectl config curret-context) 
+  970  export PATH="$PATH:/root/istio-1.3.5/bin:/var/lib/snapd/snap/bin/"
+  971  microk8s.kubectl get pods
+  972  microk8s.kubectl get pods -n istio-system 
+  973  microk8s.kubectl display prometheus-6f74d6f76d-7lnf2  
+  974  microk8s.kubectl logs  prometheus-6f74d6f76d-7lnf2  
+  975  microk8s.kubectl get pods -n istio-system 
+  976  microk8s.kubectl logs kiali-5cd7c8b6d-g6rqn
+  977  microk8s.kubectl logs kiali-5cd7c8b6d-g6rqn -n istio-system
+  978  ping srvcto01
+  979  vi /etchosts
+  980  vi /etc/hosts
+  981  ping srvcto01
+  982  microk8s.kubectl logs kiali-5cd7c8b6d-g6rqn -n istio-system
+  983  microk8s.kubectl get pods -n istio-system 
+  984  free -m
+  985  microk8s.kubectl logs kiali-5cd7c8b6d-g6rqn -n istio-system
+  986  microk8s.kubectl get pods -n istio-system 
+  987  microk8s.kubectl logs kiali-5cd7c8b6d-g6rqn -n istio-system
+  988  microk8s.kubectl get pods -n istio-system 
+  989  microk8s.kubectl logs CrashLoopBackOff  -n istio-system 
+  990  microk8s.kubectl logs  istio-policy-69cdb87cc8-85x2h    -n istio-system 
+  991  microk8s.kubectl logs CrashLoopBackOff  -n istio-system 
+  992  vi /etc/profile
+  993  init 6
+  994  ifconfig
+  995  ps -aux 
+  996  systemctl restart sshd
+  997  iptables -L -n
+  998  systemctl stop firewalld
+  999  netstat -tlna
+ 1000  ping uol.com.br
+ 1001  microk8s.kubectl logs CrashLoopBackOff  -n istio-system 
+ 1002  microk8s.kubectl get pods
+ 1003  microk8s.kubectl get namespaces
+ 1004  microk8s.kubectl get pods -n istio-system
+ 1005  pint srvcto01
+ 1006  ping srvcto01
+ 1007  microk8s.kubectl get pods -n istio-system
+ 1008  cd /Agi
+ 1009  cd /Senai_Agile_DEVOPS/
+ 1010  ls
+ 1011  mkdir -o microk8s
+ 1012  mkdir  microk8s
+ 1013  cd microk8s/
+ 1014  ls
+ 1015  microk8s.enable  helm
+ 1016  cd 
+ 1017  cd /Senai_Agile_DEVOPS/
+ 1018  ls
+ 1019  mkdir Material_Aula
+ 1020  cd Material_Aula/
+ 1021  git clone https://github.com/dvriesman/agile-devops
+ 1022  ls
+ 1023  cd ..
+ 1024  rm Material_Aula/
+ 1025  rm Material_Aula/ -rf
+ 1026  cd ..
+ 1027  mkdir Material_Aula
+ 1028  cd Material_Aula/
+ 1029  ls
+ 1030  https://github.com/dvriesman/agile-devops
+ 1031  git clone https://github.com/dvriesman/agile-devops
+ 1032  ls
+ 1033  cd ai
+ 1034  cd agile-devops/
+ 1035  ls
+ 1036  cd week5/
+ 1037  ls
+ 1038  cd ..
+ 1039  cd week4
+ 1040  ls
+ 1041  cd istio/
+ 1042  ls
+ 1043  cd apps/
+ 1044  ls
+ 1045  cd helms/
+ 1046  ls
+ 1047  cd ..
+ 1048  ls
+ 1049  cp helms/ /Senai_Agile_DEVOPS/microk8s/ -Rv
+ 1050  ls
+ 1051  cd /Senai_Agile_DEVOPS/
+ 1052  ls
+ 1053  cd microk8s/
+ 1054  ls
+ 1055  cd helms/
+ 1056  ls
+ 1057  microk8s.helm install --name demoapi ./demoapi
+ 1058  ls
+ 1059  microk8s.helm install --name demoapi ./demoapi
+ 1060  microk8s.enable  tiller
+ 1061  microk8s.helm install --name demoapi ./demoapi
+ 1062  microk8s.helm enable
+ 1063  microk8s.helm init
+ 1064  microk8s.helm install --name demoapi ./demoapi
+ 1065  microk8s.helm init  
+ 1066  microk8s.kubectl get pods -n istio-system
+ 1067  microk8s.kubectl get namesystem
+ 1068  microk8s.kubectl get namesystens
+ 1069  microk8s.kubectl get namespaces
+ 1070  microk8s.kubectl get pods -n kube-system
+ 1071  microk8s.helm install --name demoapi ./demoapi
+ 1072  microk8s.kubectl get namespaces
+ 1073  microk8s.kubectl get pods
+ 1074  microk8s.kubectl get namespaces
+ 1075  microk8s.kubectl get pods
+ 1076  microk8s.kubectl logs demoapi-697f54464b-2dkx8 
+ 1077  netstat -tlna | grep 9090
+ 1078  microk8s.kubectl logs demoapi-697f54464b-2dkx8 
+ 1079  helm list
+ 1080  microk8s.kubectl helm list
+ 1081  netstat -tlna
+ 1082  netstat -tlna | grep 8080
+ 1083  microk8s.kubectl logs demoapi-697f54464b-2dkx8 
+ 1084  microk8s.kubectl display  demoapi-697f54464b-2dkx8 
+ 1085  microk8s.kubectl edit  demoapi-697f54464b-2dkx8 
+ 1086  microk8s.kubectl get deployments
+ 1087  microk8s.kubectl get svc
+ 1088  helm list
+ 1089  microk8s.kubectl get deployments
+ 1090  microk8s.kubectl get deployments demopai
+ 1091  microk8s.kubectl get deployments demoapi
+ 1092  microk8s.kubectl edit  deployments demoapi
+ 1093  microk8s.kubectl get deployments demoapi
+ 1094  microk8s.kubectl  get namespace
+ 1095  microk8s.kubectl get deployments demoapi -n charles
+ 1096  microk8s.kubectl get pods  -n charles
+ 1097  microk8s.kubectl get pods  -n default
+ 1098  kubectl label namespace default istio-injection=enabled
+ 1099  microk8s.kubectl label namespace default istio-injection=enabled
+ 1100  microk8s.kubectl get pods  -n default
+ 1101  microk8s.kubectl delete  pods  demoapi-697f54464b-2dkx8
+ 1102  microk8s.kubectl get pods  -n default
+ 1103  microk8s.kubectl get pods  
+ 1104  microk8s.kubectl logs demoapi-697f54464b-66psg
+ 1105  microk8s.kubectl get pods  
+ 1106  microk8s.kubectl logs demoapi-697f54464b-66psg
+ 1107  microk8s.kubectl get deployments 
+ 1108  microk8s.kubectl get svc
+ 1109  netstat -tlna
+ 1110  ls
+ 1111  microk8s.kubectl get svc
+ 1112  netstat -tlna | grep 10.152.183.125
+ 1113  netstat -tlnua | grep 10.152.183.125
+ 1114  ls
+ 1115  microk8s.helm install --name demofront  ./demofront/
+ 1116  microk8s.kubectl get svc
+ 1117  microk8s.kubectl get deployments 
+ 1118  ls
+ 1119  vi demovi demofront/values.yaml 
+ 1120  ls
+ 1121  vi demofront/values.yaml 
+ 1122  microk8s.kubectl helm upgrade demofront ./demofront
+ 1123   helm upgrade demofront ./demofront
+ 1124  microk8s.kubectl helm upgrade demofront ./demofront
+ 1125  microk8s.helm upgrade demofront ./demofront/t
+ 1126  microk8s.helm upgrade demofront ./demofront/
+ 1127  microk8s.kubectl get ingress
+ 1128  microk8s.kubectl get svc
+ 1129  microk8s.kubectl get pods
+ 1130  cat demofront/values
+ 1131  cat demofront/values.yaml 
+ 1132  microk8s.helm upgrade microapi --set "app.servicename=demoapi-xpto" ./demoapi
+ 1133  microk8s.kubectl get svc
+ 1134  microk8s.kubectl get deployments 
+ 1135  microk8s.helm upgrade demooapi --set "app.servicename=demoapi-xpto" ./demoapi
+ 1136  microk8s.helm upgrade demoapi --set "app.servicename=demoapi-xpto" ./demoapi
+ 1137  microk8s.kubectl get deployments 
+ 1138  microk8s.kubectl edit  deployments demoapi
+ 1139  microk8s.helm upgrade demoapi --set "app.servicename=demoapi-xpto" ./demoapi
+ 1140  microk8s.kubectl get ed
+ 1141  microk8s.kubectl get ep
+ 1142  microk8s.kubectl get pods
+ 1143  microk8s.helm template --name demoapi2 --set app.version=v2 --setcoolor=green" --set "app.name=abacaxi"./demoapi 
+ 1144  microk8s.helm template --name demoapi2 --set "app.version=v2" --set "app.coolor=green" --set "app.name=abacaxi"./demoapi 
+ 1145  microk8s.helm template --name demoapi2 --set "app.version=v2" --set "app.coolor=green" --set "app.name=abacaxi" ./demoapi 
+ 1146  ls
+ 1147  vi deployment-v2.yaml
+ 1148  vim deployment-v2.yaml
+ 1149  pic
+ 1150  piconv 
+ 1151  ls
+ 1152  cat < 
+ 1153  cat < .
+ 1154  cat < teste
+ 1155  microk8s.helm template --name demoapi2 --set "app.version=v2" --set "app.coolor=green" --set "app.name=abacaxi" ./demoapi  > deploymentv2.yaml
+ 1156  vi deploymentv2.yaml 
+ 1157  microk8s.helm upgrade demoapi2 -f deploymentv2.yaml 
+ 1158  microk8s.helm upgrade demoapi2 -f deploymentv2.yaml  ./demoapi
+ 1159  microk8s.helm install  demoapi2 -f deploymentv2.yaml  ./demoapi
+ 1160  microk8s.helm upgrade   demoapi2 -f deploymentv2.yaml  ./demoapi
+ 1161  microk8s.kubectl get svc
+ 1162  microk8s.helm template --name demoapi2 --set "app.version=v2" --set "app.coolor=green" --set "app.name=abacaxi" ./demoapi  > deploymentv2.yaml
+ 1163  vi deploymentv2.yaml 
+ 1164  mv deploymentv2.yaml demoapi-v2
+ 1165  microk8s.kubectl apply -f demoapi-v2 
+ 1166  microk8s.kubectl get svc
+ 1167  microk8s.kubectl get pods
+ 1168  microk8s.kubectl get svc
+ 1169  microk8s.kubectl get deployments
+ 1170  microk8s.kubectl edit deployments demoapi2
+ 1171  ping
+ 1172  ls
+ 1173  vi demoapi-v2 
+ 1174* kubectl aply  -f files/kuard-config.yaml 
+ 1175  microk8s.kubectl apply -f demoapi-v2 
+ 1176  vi demoapi-v2 +48
+ 1177  microk8s.kubectl apply -f demoapi-v2 
+ 1178  microk8s.kubectl get deployments
+ 1179  microk8s.kubectl get pods
+ 1180  microk8s.kubectl display  859cd65c48
+ 1181  microk8s.kubectl display  demoapi2-859cd65c48-vg2wq 
+ 1182  microk8s.kubectl get pods
+ 1183  microk8s.kubectl get svc
+ 1184  microk8s.kubectl get pd
+ 1185  microk8s.kubectl get ped
+ 1186  microk8s.kubectl get pods
+ 1187  microk8s.kubectl get depolyment
+ 1188  microk8s.kubectl get depol
+ 1189  microk8s.kubectl get deplo
+ 1190  microk8s.kubectl get deployment
+ 1191  microk8s.kubectl get ep
+ 1192  ls
+ 1193  microk8s.kubectl get deployment
+ 1194  microk8s.kubectl  edit demofront/
+ 1195  microk8s.kubectl  edit demofront
+ 1196  microk8s.kubectl edit demofront
+ 1197  microk8s.kubectl edit svc demofront
+ 1198  microk8s.kubectl get svc
+ 1199  ls
+ 1200  microk8s.kubectl get svc
+ 1201  microk8s.kubectl edit svc demofront
+ 1202  microk8s.kubectl edit svc demoapi
+ 1203  microk8s.kubectl get svc
+ 1204  microk8s.kubectl get pods
+ 1205  microk8s.kubectl edit pods demoapi2-859cd65c48-vg2wq
+ 1206  microk8s.kubectl edit pods demoapi2-859cd65c48-vg2wq 
+ 1207  microk8s.kubectl apply -f demoapi-destination.yaml 
+ 1208  microk8s.kubectl get svc
+ 1209  microk8s.kubectl get pods
+ 1210  microk8s.kubectl get destination
+ 1211  microk8s.kubectl get destinationrules
+ 1212  microk8s.kubectl edit destinationrules demoapi
+ 1213  ls
+ 1214  cat demoapi-all-in-v2.yaml 
+ 1215  microk8s.kubectl edit destinationrules demoapi
+ 1216  microk8s.kubectl get virtualservers
+ 1217* microk8s.kubectl get v
+ 1218  microk8s.kubectl get virtualservises
+ 1219  microk8s.kubectl get virtualservices
+ 1220  microk8s.kubectl get virtualservices -n default
+ 1221  ls
+ 1222  cat demoapi-all-in-v1.yaml 
+ 1223  cat demoapi-all-in-v2.yaml 
+ 1224  cat demoapi-destination.yaml 
+ 1225  microk8s.kubectl get virtualservices -n default
+ 1226  cd ..
+ 1227  ls
+ 1228  cd ..
+ 1229  git add *
+ 1230  git add * -r
+ 1231  git add * 
+ 1232  git commit
+ 1233  git commit -a
+ 1234  git push
+ 1235  git pull
+ 1236  cd microk8s/
+ 1237  ls
+ 1238  history >> 20191120-history-cmd.txt
