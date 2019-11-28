@@ -15,7 +15,7 @@
 
 ## Atividade 02
 - Nome do Chart: marte-repo
-- Repositorio GIT: 
+- Repositorio GIT: https://github.com/charles-josiah/Senai_Agile_DEVOPS/tree/master/avaliacao
 
 ##Atividade 03
 - Comando usado para adicionar o repo do museum no helm: curl -v --data-binary "@atividade02-0.1.4.tgz" http://senaicharts.agile-devops.club/api/charts
